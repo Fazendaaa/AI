@@ -1,3 +1,6 @@
+/*  -------------------------------- IMPORTS -------------------------------  */
+
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,16 +33,11 @@ typedef struct connection {
 
 /*  ------------------------------- LIBRARY --------------------------------  */
 
-static Person *new_person( char *name, char *course, int age ) {
-    Person *new = NULL;
+static char *string_lower( char *str ) {
+    for( int i = 0; str[ i ]; i++ )
+        str[ i ] = tolower( str[ i ] );
 
-    if( NULL != ( new = malloc( sizeof( Person ) ) ) ){
-        person_name( new ) = name;
-        person_course( new ) = course;
-        person_age( new ) = age;
-    }
-
-    return new;
+    return str;
 }
 
 static void free_person( Person **person ) {
@@ -51,14 +49,18 @@ static void free_person( Person **person ) {
     }
 }
 
-static Connection *new_connection( Person *person_one, Person *person_two,
-                                   int friendship ) {
-    Connection *new = NULL;
+static Person *new_person( char *name, char *course, int age ) {
+    Person *new = NULL;
 
-    if( NULL != ( new = malloc( sizeof( Connection ) ) ) ){
-        connection_first( new ) = person_one;
-        connection_second( new ) = person_two;
-        connection_friendship( new ) = friendship;
+    if( NULL != ( new = malloc( sizeof( Person ) ) ) ) {
+        if(  NULL != name && NULL != course ) {
+            person_name( new ) = string_lower( name );
+            person_course( new ) = string_lower( course );
+            person_age( new ) = ( 0 < age ) ? age : 0;
+        }
+
+        else
+            free_person( &new );
     }
 
     return new;
@@ -73,8 +75,50 @@ static void free_connection( Connection **connection ) {
     }
 }
 
+static Connection *new_connection( Person *person_one, Person *person_two,
+                                   int friendship ) {
+    Connection *new = NULL;
+
+    if( NULL != ( new = malloc( sizeof( Connection ) ) ) ) {
+        if( NULL != person_one && NULL != person_two ) {
+            connection_first( new ) = person_one;
+            connection_second( new ) = person_two;
+            connection_friendship( new ) = ( 0 < friendship ) ? friendship : 0;
+        }
+
+        else
+            free_connection( &new );
+    }
+
+    return new;
+}
+
 static bool is_friendship( Connection *connection ) {
-    return false;
+    int pontuation = 0;
+
+    if( NULL != connection && NULL != connection_first( connection )
+                           && NULL != connection_second( connection ) ) {
+        if( !strcmp( person_name( connection_first( connection ) ),
+                     person_name( connection_second( connection ) ) ) ) {
+            pontuation += 1;
+        }
+
+        if( person_age( connection_first( connection ) ) ==
+            person_age( connection_second( connection ) ) ) {
+            pontuation += 2;
+        }
+
+        if( !strcmp( person_course( connection_first( connection ) ),
+                     person_course( connection_second( connection ) ) ) ) {
+            pontuation += 3;
+        }
+
+        if( 6 < connection_friendship( connection ) ) {
+            pontuation += 5;
+        }
+    }
+
+    return ( 4 < pontuation ) ? true : false;
 }
 
 /*  --------------------------------- MAIN ---------------------------------  */
@@ -95,8 +139,8 @@ int main( int argc, char **argv ) {
     printf( "\t\t\t\"Quem gosta de quem?\"\n\n"
             "O Programa compara a relacao entre duas pessoas e diz se elas sao "
             "ou nao amigas. Para isso sera necessario informar dados como o "
-            "nomes, idades, cursos e ha quanto tempo se conhecem.\n\n" );
-    printf( "Digite os seguintes dados da primeira pessoa:\n"
+            "nomes, idades, cursos e ha quanto tempo se conhecem.\n\n"
+            "Digite os seguintes dados da primeira pessoa:\n"
             "\"primeiro nome, idade, sigla do curso\"\n");
     scanf( "%s %d %s", name_one, &age_one, course_one );
     person_one = new_person( name_one, course_one, age_one );
@@ -106,13 +150,12 @@ int main( int argc, char **argv ) {
     scanf( "%s %d %s", name_two, &age_two, course_two );
     person_two = new_person( name_two, course_two, age_two );
 
-    printf( "\nAgora digite ha quanto tempo, em anos, se conhecem -- 0 caso nao"
-            " se conhecam:\n");
+    printf( "\nAgora digite ha quanto tempo, em anos, se conhecem:\n" );
     scanf( "%d", &friendship );
     connection = new_connection( person_one, person_two, friendship );
 
     printf( "Eles sao amigos?\nR: %s\n",
-             ( 1 == is_friendship( connection ) ) ? "sim" : "nao" );
+          ( 1 == is_friendship( connection ) ) ? "sim" : "nao" );
 
     free_connection( &connection );
 
