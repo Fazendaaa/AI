@@ -116,6 +116,15 @@ static bool is_friendship( Connection *connection ) {
         if( 6 < connection_friendship( connection ) ) {
             pontuation += 5;
         }
+
+        /*  case they don't know each other but have the same name, same age and
+            are  enrolled  in the same course they would have six points -- wich
+            means  they  would be friends, thats why this penalty in two points;
+            so the algorithm could work
+        */
+        else if( 0 == connection_friendship( connection ) ) {
+            pontuation -= 2;
+        }
     }
 
     return ( 4 < pontuation ) ? true : false;
@@ -154,7 +163,7 @@ int main( int argc, char **argv ) {
     scanf( "%d", &friendship );
     connection = new_connection( person_one, person_two, friendship );
 
-    printf( "Eles sao amigos?\nR: %s\n",
+    printf( "\nEles sao amigos?\nR: %s\n",
           ( 1 == is_friendship( connection ) ) ? "sim" : "nao" );
 
     free_connection( &connection );
