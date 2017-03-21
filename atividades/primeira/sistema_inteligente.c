@@ -150,13 +150,13 @@ int main( int argc, char **argv ) {
             "ou nao amigas. Para isso sera necessario informar dados como o "
             "nomes, idades, cursos e ha quanto tempo se conhecem.\n\n"
             "Digite os seguintes dados da primeira pessoa:\n"
-            "\"primeiro nome, idade, sigla do curso\"\n");
-    scanf( "%s %d %s", name_one, &age_one, course_one );
+            "\"primeiro nome,idade,sigla do curso\"\n");
+    scanf( "%s[^,],%d[^,],%s", name_one, &age_one, course_one );
     person_one = new_person( name_one, course_one, age_one );
 
     printf( "\nDigite os seguintes dados da segunda pessoa:\n"
-            "\"primeiro nome, idade, sigla do curso\"\n");
-    scanf( "%s %d %s", name_two, &age_two, course_two );
+            "\"primeiro nome,idade,sigla do curso\"\n");
+    scanf( "%s[^,],%d[^,],%s", name_two, &age_two, course_two );
     person_two = new_person( name_two, course_two, age_two );
 
     printf( "\nAgora digite ha quanto tempo, em anos, se conhecem:\n" );
