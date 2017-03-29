@@ -5,7 +5,8 @@
 %
 %   obs:  mesmo  que  a  extensão seja a mesma de Perl, recomendo não mudar para
 %   .pro  para evitar conflito uma vez que na minha máquina o SWI não reconheçeu
-%   tal extensão como válida.
+%   tal  extensão  como  válida.  Além  disso,  para  matar  o  programa deve-se
+%   pressionar Ctrl + D -- no Windows não sei como seria, provavelment Ctrl + Z.
 %
 %   Use  o  segundo  comando  na  sua interface SWI-Prolog para fazer o teste do
 %   código:
