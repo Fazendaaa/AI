@@ -1,4 +1,4 @@
-%   Para instalar no Linux basta procurar o pacote 'swi-prolog', e rodar no
+%   Para  instalar  no  Linux  basta  procurar o pacote 'swi-prolog', e rodar no
 %   terminal com o comando:
 %
 %                           swipl vetor_abs.pl
