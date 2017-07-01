@@ -3,6 +3,7 @@ import {
     Meli
 } from 'mercadolibre';
 import dotenv from 'dotenv';
+import removeAccents from 'remove-accents';
 
 dotenv.config();
 const app = new Meli(process.env.CLIENT_ID, process.env.CLIENT_KEY);
@@ -28,7 +29,8 @@ const search = query => new Promise((resolve, reject) => {
                     original_price: (element.original_price) ? element.original_price : element.price,
                     price: element.price,
                     sold_quantity: element.sold_quantity,
-                    brand: (element.attributes[0]) ? element.attributes[0].value_name : 'sem marca'
+                    // Since many sellers put accents in the brand name, so this not creates another brand remove it.
+                    brand: (element.attributes[0]) ? removeAccents(element.attributes[0].value_name) : 'Sem Marca'
                 };
             })).then(resolve);
         }
@@ -48,7 +50,8 @@ const stringfyResponse = element => {
  * Writes in arff file the info wanted.
  */
 fs.open('results.arff', 'w', (err, fd) => {
-    const fileHeader = "%   Banco de dados para suplementos retirados do Mercado Livre\n\
+    const fileHeader = `%   ${Date(Date.now())}\n\
+%   Banco de dados para suplementos retirados do Mercado Livre\n\
 %\n\
 %   Creators:\n\
 %       Danilo de Moraes Costa\n\
@@ -64,7 +67,7 @@ fs.open('results.arff', 'w', (err, fd) => {
 @attribute Produtos             {whey, bcaa, termogenico, glutamina}\n\
 \n\
 @data\n\
-";
+`;
     if(err)
         console.log(err);
     else {
