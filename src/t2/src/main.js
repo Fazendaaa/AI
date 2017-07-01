@@ -43,7 +43,8 @@ const search = query => new Promise((resolve, reject) => {
  * @returns {String} Element info setted int string format.
  */
 const stringfyResponse = element => {
-    return `${element.original_price}, ${element.price}, ${element.sold_quantity}, ${element.brand}, ${element.type}`;
+    // Since brand name could have space and Weka doesn't recognize it as string, underscore must be used.
+    return `${element.original_price}, ${element.price}, ${element.sold_quantity}, ${element.brand.replace(/ /g, '_').replace(/'/g, '')}, ${element.type.replace(/ /g, '_')}`;
 }
 
 /**
@@ -64,7 +65,7 @@ fs.open('results.arff', 'w', (err, fd) => {
 @attribute Preco_de_venda       NUMERIC\n\
 @attribute Quantidade_vendida   NUMERIC\n\
 @attribute Marca                STRING\n\
-@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa barra de proteina}\n\
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa_barra_de_proteina}\n\
 \n\
 @data\n\
 `;

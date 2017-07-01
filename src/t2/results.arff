@@ -1,4 +1,4 @@
-%   Sat Jul 01 2017 11:04:20 GMT-0300 (-03)
+%   Sat Jul 01 2017 11:11:49 GMT-0300 (-03)
 %   Banco de dados para suplementos retirados do Mercado Livre
 %
 %   Creators:
@@ -12,407 +12,407 @@
 @attribute Preco_de_venda       NUMERIC
 @attribute Quantidade_vendida   NUMERIC
 @attribute Marca                STRING
-@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa barra de proteina}
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa_barra_de_proteina}
 
 @data
 152.99, 129.99, 6114, Integralmedica, whey
 199, 129.9, 845, Integralmedica, whey
-59.9, 59.9, 507, Atlhetica Nutrition, whey
-68, 68, 2476, Optimum Nutrition, whey
-68.9, 68.9, 849, Optimum Nutrition, whey
-168.99, 149.99, 2567, Max Titanium, whey
+59.9, 59.9, 507, Atlhetica_Nutrition, whey
+68, 68, 2476, Optimum_Nutrition, whey
+68.9, 68.9, 849, Optimum_Nutrition, whey
+168.99, 149.99, 2567, Max_Titanium, whey
 209.12, 119.99, 415, Integralmedica, whey
-79.9, 79.9, 6037, Perfect Labs, whey
+79.9, 79.9, 6037, Perfect_Labs, whey
 48.98, 48.98, 1353, Integralmedica, whey
-69.9, 69.9, 1152, Max Titanium, whey
-129, 89, 1650, Atlhetica Nutrition, whey
+69.9, 69.9, 1152, Max_Titanium, whey
+129, 89, 1650, Atlhetica_Nutrition, whey
 132.56, 132.56, 335, BodyAction, whey
-59, 59, 862, WHEY ONLY, whey
-98.8, 98.8, 1178, Giants Nutrition, whey
-174.9, 174.9, 2028, Optimum Nutrition, whey
-229.9, 229.9, 1813, Optimum Nutrition, whey
-99.9, 99.9, 1134, Atlhetica Nutrition, whey
-149.9, 149.9, 611, Optimum Nutrition, whey
-149.9, 129.9, 2249, Max Titanium, whey
+59, 59, 862, WHEY_ONLY, whey
+98.8, 98.8, 1178, Giants_Nutrition, whey
+174.9, 174.9, 2028, Optimum_Nutrition, whey
+229.9, 229.9, 1813, Optimum_Nutrition, whey
+99.9, 99.9, 1134, Atlhetica_Nutrition, whey
+149.9, 149.9, 611, Optimum_Nutrition, whey
+149.9, 129.9, 2249, Max_Titanium, whey
 89, 89, 603, Probiotica, whey
 349.9, 249.9, 654, Integralmedica, whey
-199, 169, 254, Optimum Nutrition, whey
-120, 120, 587, Max Titanium, whey
-59.9, 59.9, 284, Atlhetica Nutrition, whey
-99.9, 99.9, 455, Optimum Nutrition, whey
+199, 169, 254, Optimum_Nutrition, whey
+120, 120, 587, Max_Titanium, whey
+59.9, 59.9, 284, Atlhetica_Nutrition, whey
+99.9, 99.9, 455, Optimum_Nutrition, whey
 169.4, 169.4, 398, Probiotica, whey
 169.66, 169.66, 644, Integralmedica, whey
-58, 58, 1427, Infinity Labs, whey
+58, 58, 1427, Infinity_Labs, whey
 169.4, 169.4, 236, Probiotica, whey
 99.89, 99.89, 229, Pandora, whey
-130.41, 130.41, 190, Max Titanium, whey
-125, 125, 759, New Millen, whey
-249.1, 179.1, 484, Atlhetica Nutrition, whey
-199.9, 199.9, 248, Optimum Nutrition, whey
+130.41, 130.41, 190, Max_Titanium, whey
+125, 125, 759, New_Millen, whey
+249.1, 179.1, 484, Atlhetica_Nutrition, whey
+199.9, 199.9, 248, Optimum_Nutrition, whey
 147.99, 147.99, 190, BodyAction, whey
-120.01, 120.01, 276, Max Titanium, whey
-170, 170, 643, Max Titanium, whey
+120.01, 120.01, 276, Max_Titanium, whey
+170, 170, 643, Max_Titanium, whey
 159.9, 159.9, 740, BodyAction, whey
-379.9, 379.9, 160, Optimum Nutrition, whey
-139.9, 139.9, 419, Max Titanium, whey
-89.9, 89.9, 485, Optimum Nutrition, whey
-69.9, 69.9, 438, Atlhetica Nutrition, whey
+379.9, 379.9, 160, Optimum_Nutrition, whey
+139.9, 139.9, 419, Max_Titanium, whey
+89.9, 89.9, 485, Optimum_Nutrition, whey
+69.9, 69.9, 438, Atlhetica_Nutrition, whey
 237.46, 164.9, 99, Integralmedica, whey
-99.9, 99.9, 254, Atlhetica Nutrition, whey
-199.9, 199.9, 477, Optimum Nutrition, whey
+99.9, 99.9, 254, Atlhetica_Nutrition, whey
+199.9, 199.9, 477, Optimum_Nutrition, whey
 249, 179.1, 1263, Integralmedica, whey
 73.8, 73.8, 193, Probiotica, whey
-229.9, 189.9, 719, Max Titanium, whey
+229.9, 189.9, 719, Max_Titanium, whey
 129.9, 129.9, 973, Integralmedica, whey
 67.18, 67.18, 326, BodyAction, whey
 84.92, 84.92, 85, Integralmedica, whey
 39.8, 39.8, 667, Integralmedica, whey
-164.99, 164.99, 315, Atlhetica Nutrition, whey
-59.9, 59.9, 138, Atlhetica Nutrition, whey
-149, 99.9, 317, Profit Labs, whey
+164.99, 164.99, 315, Atlhetica_Nutrition, whey
+59.9, 59.9, 138, Atlhetica_Nutrition, whey
+149, 99.9, 317, Profit_Labs, whey
 229.9, 169.9, 572, Integralmedica, whey
 68.4, 68.4, 635, Probiotica, whey
-169, 169, 132, Atlhetica Nutrition, whey
+169, 169, 132, Atlhetica_Nutrition, whey
 68.4, 68.4, 819, Probiotica, whey
 229.9, 161.5, 110, Integralmedica, whey
-249.9, 249.9, 158, Optimum Nutrition, whey
-406, 406, 14, Optimum Nutrition, whey
+249.9, 249.9, 158, Optimum_Nutrition, whey
+406, 406, 14, Optimum_Nutrition, whey
 120, 120, 72, Integralmedica, whey
 149, 149, 1, Probiotica, whey
-159.9, 159.9, 273, Optimum Nutrition, whey
-159, 159, 382, Max Titanium, whey
-359.9, 359.9, 389, Optimum Nutrition, whey
-74.5, 74.5, 107, Atlhetica Nutrition, whey
+159.9, 159.9, 273, Optimum_Nutrition, whey
+159, 159, 382, Max_Titanium, whey
+359.9, 359.9, 389, Optimum_Nutrition, whey
+74.5, 74.5, 107, Atlhetica_Nutrition, whey
 189, 189, 241, Probiotica, whey
 149.9, 149.9, 203, BodyAction, whey
 68.4, 68.4, 322, Probiotica, whey
 149.9, 149.9, 48, Integralmedica, whey
-89.9, 89.9, 92, Atlhetica Nutrition, whey
+89.9, 89.9, 92, Atlhetica_Nutrition, whey
 244, 244, 778, ast, whey
-79.99, 79.99, 209, Sem Marca, whey
+79.99, 79.99, 209, Sem_Marca, whey
 179.1, 179.1, 159, Integralmedica, whey
-91.89, 91.89, 161, Optimum Nutrition, whey
-111.92, 111.92, 229, Black Skull, whey
-219.99, 219.99, 62, Atlhetica Nutrition, whey
-127, 127, 290, Optimum Nutrition, whey
-119, 119, 0, Sem Marca, whey
+91.89, 91.89, 161, Optimum_Nutrition, whey
+111.92, 111.92, 229, Black_Skull, whey
+219.99, 219.99, 62, Atlhetica_Nutrition, whey
+127, 127, 290, Optimum_Nutrition, whey
+119, 119, 0, Sem_Marca, whey
 120, 120, 61, Integralmedica, whey
-156.13, 156.13, 340, Optimum Nutrition, whey
-167.99, 167.99, 12, Max Titanium, whey
+156.13, 156.13, 340, Optimum_Nutrition, whey
+167.99, 167.99, 12, Max_Titanium, whey
 69.88, 69.88, 161, Pandora, whey
 175.4, 175.4, 19, Probiotica, whey
-140, 140, 410, Max Titanium, whey
-59, 59, 809, Infinity Labs, whey
+140, 140, 410, Max_Titanium, whey
+59, 59, 809, Infinity_Labs, whey
 139.9, 129.9, 1115, Integralmedica, whey
-124.9, 124.9, 81, Atlhetica Nutrition, whey
-159, 159, 0, Sem Marca, whey
+124.9, 124.9, 81, Atlhetica_Nutrition, whey
+159, 159, 0, Sem_Marca, whey
 172, 139.9, 649, Integralmedica, whey
-169.9, 169.9, 134, Atlhetica Nutrition, whey
-139.8, 139.8, 240, Optimum Nutrition, whey
+169.9, 169.9, 134, Atlhetica_Nutrition, whey
+139.8, 139.8, 240, Optimum_Nutrition, whey
 176.8, 176.8, 212, Probiotica, whey
-89.9, 89.9, 452, Max Titanium, whey
-126, 126, 210, Sem Marca, whey
+89.9, 89.9, 452, Max_Titanium, whey
+126, 126, 210, Sem_Marca, whey
 199, 129.9, 368, Integralmedica, whey
-74.5, 74.5, 86, Atlhetica Nutrition, whey
+74.5, 74.5, 86, Atlhetica_Nutrition, whey
 149.9, 149.9, 41, Integralmedica, whey
-298.99, 128.8, 118, Black Skull, whey
-149, 99.9, 323, Profit Labs, whey
-169, 169, 102, Optimum Nutrition, whey
+298.99, 128.8, 118, Black_Skull, whey
+149, 99.9, 323, Profit_Labs, whey
+169, 169, 102, Optimum_Nutrition, whey
 99.9, 99.9, 154, Integralmedica, whey
-69.9, 69.9, 109, Atlhetica Nutrition, whey
-149.99, 149.99, 88, Max Titanium, whey
+69.9, 69.9, 109, Atlhetica_Nutrition, whey
+149.99, 149.99, 88, Max_Titanium, whey
 79.9, 79.9, 643, Integralmedica, whey
-399, 399, 1, Optimum Nutrition, whey
+399, 399, 1, Optimum_Nutrition, whey
 48.98, 48.98, 520, Integralmedica, whey
-120.9, 120.9, 134, Body Action, whey
-38.9, 38.9, 71, Atlhetica Nutrition, whey
+120.9, 120.9, 134, Body_Action, whey
+38.9, 38.9, 71, Atlhetica_Nutrition, whey
 159.8, 159.8, 200, BodyAction, whey
-199.9, 199.9, 121, Optimum Nutrition, whey
-239.9, 239.9, 155, Max Titanium, whey
+199.9, 199.9, 121, Optimum_Nutrition, whey
+239.9, 239.9, 155, Max_Titanium, whey
 212.93, 148.9, 89, Integralmedica, whey
 169, 169, 1632, BodyAction, whey
-53.25, 53.25, 55, Atlhetica Nutrition, whey
+53.25, 53.25, 55, Atlhetica_Nutrition, whey
 84.9, 84.9, 370, Probiotica, whey
-399, 399, 77, Optimum Nutrition, whey
+399, 399, 77, Optimum_Nutrition, whey
 174.88, 139.9, 297, Integralmedica, whey
-62, 62, 95, Max Titanium, whey
-53, 53, 328, Sem Marca, whey
+62, 62, 95, Max_Titanium, whey
+53, 53, 328, Sem_Marca, whey
 182, 182, 100, BodyAction, whey
 96.9, 96.9, 63, Integralmedica, whey
-199.9, 199.9, 118, Optimum Nutrition, whey
-120, 120, 42, Atlhetica Nutrition, whey
-149.9, 149.9, 477, BODY ACTION, whey
-120, 120, 100, Black Skull, whey
+199.9, 199.9, 118, Optimum_Nutrition, whey
+120, 120, 42, Atlhetica_Nutrition, whey
+149.9, 149.9, 477, BODY_ACTION, whey
+120, 120, 100, Black_Skull, whey
 174.88, 139.9, 31, Integralmedica, whey
-75.4, 75.4, 41, Optimum Nutrition, whey
-49.9, 49.9, 83, Atlhetica Nutrition, whey
-199.9, 199.9, 81, Max Titanium, whey
+75.4, 75.4, 41, Optimum_Nutrition, whey
+49.9, 49.9, 83, Atlhetica_Nutrition, whey
+199.9, 199.9, 81, Max_Titanium, whey
 60, 60, 218, Integralmedica, whey
 131.99, 131.99, 20, Integralmedica, whey
-279.9, 279.9, 241, Optimum Nutrition, whey
-69.99, 69.99, 114, Profit Labs, whey
-38.9, 38.9, 55, Atlhetica Nutrition, whey
-84, 84, 136, Max Titanium, whey
+279.9, 279.9, 241, Optimum_Nutrition, whey
+69.99, 69.99, 114, Profit_Labs, whey
+38.9, 38.9, 55, Atlhetica_Nutrition, whey
+84, 84, 136, Max_Titanium, whey
 129.9, 129.9, 32, Integralmedica, whey
-1249, 1249, 33, Optimum Nutrition, whey
+1249, 1249, 33, Optimum_Nutrition, whey
 59.9, 59.9, 104, Integralmedica, whey
 119.4, 119.4, 3, GoldsNutrition, whey
-99.9, 99.9, 62, Atlhetica Nutrition, whey
+99.9, 99.9, 62, Atlhetica_Nutrition, whey
 186.66, 186.66, 23, Integralmedica, whey
-120, 120, 2600, Sports Nutrition, whey
-389, 389, 0, Optimum Nutrition, whey
-45.99, 45.99, 160, Max Titanium, whey
+120, 120, 2600, Sports_Nutrition, whey
+389, 389, 0, Optimum_Nutrition, whey
+45.99, 45.99, 160, Max_Titanium, whey
 71.8, 71.8, 269, Probiotica, whey
 149.9, 149.9, 27, Integralmedica, whey
-103.9, 103.9, 24, Atlhetica Nutrition, whey
-474.9, 474.9, 66, Optimum Nutrition, whey
+103.9, 103.9, 24, Atlhetica_Nutrition, whey
+474.9, 474.9, 66, Optimum_Nutrition, whey
 107, 107, 3, Synthesize, whey
 510.42, 510.42, 299, Dymatize, whey
 131.99, 131.99, 18, Integralmedica, whey
-179.99, 179.99, 61, Max Titanium, whey
-350, 350, 134, Optimum Nutrition, whey
-444, 444, 1, Atlhetica Nutrition, whey
+179.99, 179.99, 61, Max_Titanium, whey
+350, 350, 134, Optimum_Nutrition, whey
+444, 444, 1, Atlhetica_Nutrition, whey
 72.6, 72.6, 90, Probiotica, whey
 182.24, 182.24, 237, Integralmedica, whey
-99, 99, 0, Sem Marca, whey
-99, 99, 50, Sem Marca, whey
-181.45, 181.45, 102, Optimum Nutrition, whey
-89.99, 89.99, 312, Max Titanium, whey
-59.99, 59.99, 30, Atlhetica Nutrition, whey
+99, 99, 0, Sem_Marca, whey
+99, 99, 50, Sem_Marca, whey
+181.45, 181.45, 102, Optimum_Nutrition, whey
+89.99, 89.99, 312, Max_Titanium, whey
+59.99, 59.99, 30, Atlhetica_Nutrition, whey
 120, 120, 45, Integralmedica, whey
-433.07, 249.8, 62, Black Skull, whey
-394.99, 394.99, 3, Optimum Nutrition, whey
-100, 100, 0, Sem Marca, whey
+433.07, 249.8, 62, Black_Skull, whey
+394.99, 394.99, 3, Optimum_Nutrition, whey
+100, 100, 0, Sem_Marca, whey
 120, 120, 46, Integralmedica, whey
-134.89, 134.89, 33, Atlhetica Nutrition, whey
-141, 141, 20, Max Titanium, whey
-418, 244, 79, Black Skull, whey
-219, 219, 182, Optimum Nutrition, whey
+134.89, 134.89, 33, Atlhetica_Nutrition, whey
+141, 141, 20, Max_Titanium, whey
+418, 244, 79, Black_Skull, whey
+219, 219, 182, Optimum_Nutrition, whey
 80.92, 80.92, 48, Integralmedica, whey
 169.8, 169.8, 415, Probiotica, whey
-74.5, 74.5, 32, Atlhetica Nutrition, whey
-179, 179, 1, Sem Marca, whey
-358.01, 358.01, 142, Optimum Nutrition, whey
-145, 145, 75, Max Titanium, whey
+74.5, 74.5, 32, Atlhetica_Nutrition, whey
+179, 179, 1, Sem_Marca, whey
+358.01, 358.01, 142, Optimum_Nutrition, whey
+145, 145, 75, Max_Titanium, whey
 154.9, 154.9, 1, Integralmedica, whey
-120, 120, 1, Sem Marca, whey
-119.9, 119.9, 37, Atlhetica Nutrition, whey
-104.9, 104.9, 5, Optimum Nutrition, whey
+120, 120, 1, Sem_Marca, whey
+119.9, 119.9, 37, Atlhetica_Nutrition, whey
+104.9, 104.9, 5, Optimum_Nutrition, whey
 120, 120, 54, Integralmedica, whey
-159, 159, 2, Sem Marca, whey
-95, 95, 126, Max Titanium, whey
-129.99, 129.99, 149, Sem Marca, whey
-200.17, 200.17, 78, Black Skull, whey
+159, 159, 2, Sem_Marca, whey
+95, 95, 126, Max_Titanium, whey
+129.99, 129.99, 149, Sem_Marca, whey
+200.17, 200.17, 78, Black_Skull, whey
 299.9, 299.9, 45, Integralmedica, whey
-91.89, 91.89, 76, Optimum Nutrition, whey
-157.9, 157.9, 24, Atlhetica Nutrition, whey
-100, 100, 0, Sem Marca, whey
+91.89, 91.89, 76, Optimum_Nutrition, whey
+157.9, 157.9, 24, Atlhetica_Nutrition, whey
+100, 100, 0, Sem_Marca, whey
 108.8, 108.8, 95, BodyAction, whey
 146.9, 146.9, 19, Integralmedica, whey
-234.12, 234.12, 61, Optimum Nutrition, whey
-199.66, 199.66, 77, Max Titanium, whey
-147, 147, 31, Atlhetica Nutrition, whey
+234.12, 234.12, 61, Optimum_Nutrition, whey
+199.66, 199.66, 77, Max_Titanium, whey
+147, 147, 31, Atlhetica_Nutrition, whey
 169.4, 169.4, 194, Probiotica, whey
 189.9, 189.9, 15, Integralmedica, whey
-359.9, 359.9, 84, Optimum Nutrition, whey
+359.9, 359.9, 84, Optimum_Nutrition, whey
 199, 129.9, 762, Integralmedica, bcaa
-40.6, 24.5, 369, Atlhetica Nutrition, bcaa
-16.79, 16.79, 2198, Atlhetica Nutrition, bcaa
-22.8, 22.8, 1992, Atlhetica Nutrition, bcaa
-47.9, 47.9, 1269, Atlhetica Nutrition, bcaa
+40.6, 24.5, 369, Atlhetica_Nutrition, bcaa
+16.79, 16.79, 2198, Atlhetica_Nutrition, bcaa
+22.8, 22.8, 1992, Atlhetica_Nutrition, bcaa
+47.9, 47.9, 1269, Atlhetica_Nutrition, bcaa
 107.22, 107.22, 721, Integralmedica, bcaa
-24, 13.9, 675, Atlhetica Nutrition, bcaa
-14.9, 14.9, 285, Atlhetica Nutrition, bcaa
-79.9, 79.9, 1188, Atlhetica Nutrition, bcaa
-128.61, 128.61, 938, Max Titanium, bcaa
-22.8, 22.8, 1148, Atlhetica Nutrition, bcaa
-77, 77, 977, Max Titanium, bcaa
-47.9, 47.9, 196, Atlhetica Nutrition, bcaa
-138.9, 138.9, 278, Mais Nutrition, bcaa
+24, 13.9, 675, Atlhetica_Nutrition, bcaa
+14.9, 14.9, 285, Atlhetica_Nutrition, bcaa
+79.9, 79.9, 1188, Atlhetica_Nutrition, bcaa
+128.61, 128.61, 938, Max_Titanium, bcaa
+22.8, 22.8, 1148, Atlhetica_Nutrition, bcaa
+77, 77, 977, Max_Titanium, bcaa
+47.9, 47.9, 196, Atlhetica_Nutrition, bcaa
+138.9, 138.9, 278, Mais_Nutrition, bcaa
 233.87, 179.9, 651, PowerFoods, bcaa
 50.3, 50.3, 103, NewNutrition, bcaa
-56.25, 56.25, 428, Atlhetica Nutrition, bcaa
-120, 120, 777, Max Titanium, bcaa
-188.99, 188.99, 319, Optimum Nutrition, bcaa
-41.67, 41.67, 245, Max Titanium, bcaa
-135.9, 135.9, 120, Atlhetica Nutrition, bcaa
+56.25, 56.25, 428, Atlhetica_Nutrition, bcaa
+120, 120, 777, Max_Titanium, bcaa
+188.99, 188.99, 319, Optimum_Nutrition, bcaa
+41.67, 41.67, 245, Max_Titanium, bcaa
+135.9, 135.9, 120, Atlhetica_Nutrition, bcaa
 52.8, 52.8, 337, Integralmedica, bcaa
-99.8, 99.8, 366, Optimum Nutrition, bcaa
-279.9, 169.9, 260, Atlhetica Nutrition, bcaa
-15.8, 15.8, 366, Atlhetica Nutrition, bcaa
-25, 25, 114, Max Titanium, bcaa
+99.8, 99.8, 366, Optimum_Nutrition, bcaa
+279.9, 169.9, 260, Atlhetica_Nutrition, bcaa
+15.8, 15.8, 366, Atlhetica_Nutrition, bcaa
+25, 25, 114, Max_Titanium, bcaa
 44.1, 44.1, 404, Integralmedica, bcaa
-87.4, 87.4, 431, Soldiers Nutrition, bcaa
+87.4, 87.4, 431, Soldiers_Nutrition, bcaa
 64.11, 64.11, 151, Integralmedica, bcaa
-18.9, 18.9, 93, Force Full, bcaa
-99.99, 99.99, 501, Max Titanium, bcaa
+18.9, 18.9, 93, Force_Full, bcaa
+99.99, 99.99, 501, Max_Titanium, bcaa
 33.9, 33.9, 231, Integralmedica, bcaa
-26.9, 26.9, 210, Mais Nutrition, bcaa
-55, 55, 191, Atlhetica Nutrition, bcaa
-189.99, 189.99, 269, Optimum Nutrition, bcaa
+26.9, 26.9, 210, Mais_Nutrition, bcaa
+55, 55, 191, Atlhetica_Nutrition, bcaa
+189.99, 189.99, 269, Optimum_Nutrition, bcaa
 164.4, 164.4, 94, Integralmedica, bcaa
 144.5, 144.5, 322, Integralmedica, bcaa
-15.8, 15.8, 83, Atlhetica Nutrition, bcaa
-73, 73, 140, Atlhetica Nutrition, bcaa
+15.8, 15.8, 83, Atlhetica_Nutrition, bcaa
+73, 73, 140, Atlhetica_Nutrition, bcaa
 74.9, 74.9, 264, Integralmedica, bcaa
 55, 55, 210, Probiotica, bcaa
-198, 198, 3, Sem Marca, bcaa
-66.5, 66.5, 37, Atlhetica Nutrition, bcaa
-120, 120, 155, Black Skull, bcaa
+198, 198, 3, Sem_Marca, bcaa
+66.5, 66.5, 37, Atlhetica_Nutrition, bcaa
+120, 120, 155, Black_Skull, bcaa
 59.9, 59.9, 310, Probiotica, bcaa
-98.99, 98.99, 325, Atlhetica Nutrition, bcaa
-17, 17, 86, Atlhetica Nutrition, bcaa
+98.99, 98.99, 325, Atlhetica_Nutrition, bcaa
+17, 17, 86, Atlhetica_Nutrition, bcaa
 138.8, 138.8, 244, Integralmedica, bcaa
 147.4, 147.4, 62, Integralmedica, bcaa
-80, 80, 0, Sem Marca, bcaa
-129.99, 129.99, 85, Atlhetica Nutrition, bcaa
-80, 80, 0, Sem Marca, bcaa
-30.9, 30.9, 152, Atlhetica Nutrition, bcaa
-23.99, 23.99, 60, Max Titanium, bcaa
-144, 144, 654, Atlhetica Nutrition, bcaa
-199.99, 199.99, 3, Sem Marca, bcaa
-49.99, 49.99, 90, Max Titanium, bcaa
+80, 80, 0, Sem_Marca, bcaa
+129.99, 129.99, 85, Atlhetica_Nutrition, bcaa
+80, 80, 0, Sem_Marca, bcaa
+30.9, 30.9, 152, Atlhetica_Nutrition, bcaa
+23.99, 23.99, 60, Max_Titanium, bcaa
+144, 144, 654, Atlhetica_Nutrition, bcaa
+199.99, 199.99, 3, Sem_Marca, bcaa
+49.99, 49.99, 90, Max_Titanium, bcaa
 417, 186, 208, Integralmedica, bcaa
-17.2, 17.2, 30, Atlhetica Nutrition, bcaa
-129, 129, 1123, Atlhetica Nutrition, bcaa
-33.9, 33.9, 78, Atlhetica Nutrition, bcaa
+17.2, 17.2, 30, Atlhetica_Nutrition, bcaa
+129, 129, 1123, Atlhetica_Nutrition, bcaa
+33.9, 33.9, 78, Atlhetica_Nutrition, bcaa
 165, 165, 42, Integralmedica, bcaa
 107.22, 107.22, 219, Integralmedica, bcaa
-130, 130, 53, Atlhetica Nutrition, bcaa
-110.99, 110.99, 137, Optimum Nutrition, bcaa
-58.44, 58.44, 72, Max Titanium, bcaa
-199.99, 199.99, 2, SElF Nutrition, bcaa
-80, 80, 0, Sem Marca, bcaa
-54.88, 54.88, 82, Black Skull, bcaa
-84, 84, 83, Atlhetica Nutrition, bcaa
-29.5, 29.5, 52, Atlhetica Nutrition, bcaa
-30.68, 30.68, 52, Atlhetica Nutrition, bcaa
-85, 85, 25, Sem Marca, bcaa
-85.99, 85.99, 175, Atlhetica Nutrition, bcaa
-135.99, 135.99, 57, Sem Marca, bcaa
-79.9, 79.9, 172, Atlhetica Nutrition, bcaa
+130, 130, 53, Atlhetica_Nutrition, bcaa
+110.99, 110.99, 137, Optimum_Nutrition, bcaa
+58.44, 58.44, 72, Max_Titanium, bcaa
+199.99, 199.99, 2, SElF_Nutrition, bcaa
+80, 80, 0, Sem_Marca, bcaa
+54.88, 54.88, 82, Black_Skull, bcaa
+84, 84, 83, Atlhetica_Nutrition, bcaa
+29.5, 29.5, 52, Atlhetica_Nutrition, bcaa
+30.68, 30.68, 52, Atlhetica_Nutrition, bcaa
+85, 85, 25, Sem_Marca, bcaa
+85.99, 85.99, 175, Atlhetica_Nutrition, bcaa
+135.99, 135.99, 57, Sem_Marca, bcaa
+79.9, 79.9, 172, Atlhetica_Nutrition, bcaa
 46.9, 46.9, 178, Integralmedica, bcaa
-30.88, 30.88, 68, Atlhetica Nutrition, bcaa
-119.07, 119.07, 115, Atlhetica Nutrition, bcaa
-189.49, 189.49, 41, Optimum Nutrition, bcaa
-57.9, 57.9, 64, Atlhetica Nutrition, bcaa
+30.88, 30.88, 68, Atlhetica_Nutrition, bcaa
+119.07, 119.07, 115, Atlhetica_Nutrition, bcaa
+189.49, 189.49, 41, Optimum_Nutrition, bcaa
+57.9, 57.9, 64, Atlhetica_Nutrition, bcaa
 132, 132, 89, Probiotica, bcaa
-120, 120, 86, Sem Marca, bcaa
-99.99, 99.99, 58, Atlhetica Nutrition, bcaa
-67, 67, 146, Max Titanium, bcaa
+120, 120, 86, Sem_Marca, bcaa
+99.99, 99.99, 58, Atlhetica_Nutrition, bcaa
+67, 67, 146, Max_Titanium, bcaa
 183.16, 129.9, 271, Integralmedica, bcaa
-81.9, 81.9, 83, Atlhetica Nutrition, bcaa
-88.9, 88.9, 36, Max Titanium, bcaa
+81.9, 81.9, 83, Atlhetica_Nutrition, bcaa
+88.9, 88.9, 36, Max_Titanium, bcaa
 48.77, 48.77, 48, Integralmedica, bcaa
-50, 50, 0, Sem Marca, bcaa
-89.9, 89.9, 62, Atlhetica Nutrition, bcaa
-99.9, 99.9, 972, Perfect Labs, bcaa
-142.99, 142.99, 201, Black Skull, bcaa
-216.8, 184.28, 136, Max Titanium, bcaa
-17.5, 17.5, 459, Atlhetica Nutrition, bcaa
-14.99, 14.99, 161, Mais Nutrition, bcaa
-79.9, 79.9, 43, Atlhetica Nutrition, bcaa
-98, 98, 17, Atlhetica Nutrition, bcaa
-120, 120, 41, Max Titanium, bcaa
-130.64, 130.64, 58, Max Titanium, bcaa
-97.95, 97.95, 107, Atlhetica Nutrition, bcaa
-35.45, 35.45, 63, Optimum Nutrition, bcaa
-140, 140, 21, Atlhetica Nutrition, bcaa
+50, 50, 0, Sem_Marca, bcaa
+89.9, 89.9, 62, Atlhetica_Nutrition, bcaa
+99.9, 99.9, 972, Perfect_Labs, bcaa
+142.99, 142.99, 201, Black_Skull, bcaa
+216.8, 184.28, 136, Max_Titanium, bcaa
+17.5, 17.5, 459, Atlhetica_Nutrition, bcaa
+14.99, 14.99, 161, Mais_Nutrition, bcaa
+79.9, 79.9, 43, Atlhetica_Nutrition, bcaa
+98, 98, 17, Atlhetica_Nutrition, bcaa
+120, 120, 41, Max_Titanium, bcaa
+130.64, 130.64, 58, Max_Titanium, bcaa
+97.95, 97.95, 107, Atlhetica_Nutrition, bcaa
+35.45, 35.45, 63, Optimum_Nutrition, bcaa
+140, 140, 21, Atlhetica_Nutrition, bcaa
 140, 109.9, 96, PowerFoods, bcaa
 125, 125, 45, Integralmedica, bcaa
-84.3, 84.3, 43, Atlhetica Nutrition, bcaa
+84.3, 84.3, 43, Atlhetica_Nutrition, bcaa
 39.9, 39.9, 34, Integralmedica, bcaa
-59.9, 59.9, 77, Atlhetica Nutrition, bcaa
-44.4, 44.4, 127, Sem Marca, bcaa
-154, 154, 12, Max Titanium, bcaa
-139, 139, 17, Atlhetica Nutrition, bcaa
-128.61, 128.61, 130, Max Titanium, bcaa
-16.99, 16.99, 47, Atlhetica Nutrition, bcaa
-173.54, 173.54, 62, Optimum Nutrition, bcaa
-159.99, 159.99, 22, Max Titanium, bcaa
-73.9, 73.9, 81, Atlhetica Nutrition, bcaa
-26.9, 26.9, 47, Mais Nutrition, bcaa
-39, 39, 24, Atlhetica Nutrition, bcaa
+59.9, 59.9, 77, Atlhetica_Nutrition, bcaa
+44.4, 44.4, 127, Sem_Marca, bcaa
+154, 154, 12, Max_Titanium, bcaa
+139, 139, 17, Atlhetica_Nutrition, bcaa
+128.61, 128.61, 130, Max_Titanium, bcaa
+16.99, 16.99, 47, Atlhetica_Nutrition, bcaa
+173.54, 173.54, 62, Optimum_Nutrition, bcaa
+159.99, 159.99, 22, Max_Titanium, bcaa
+73.9, 73.9, 81, Atlhetica_Nutrition, bcaa
+26.9, 26.9, 47, Mais_Nutrition, bcaa
+39, 39, 24, Atlhetica_Nutrition, bcaa
 220, 180.9, 21, NewNutrition, bcaa
-99, 99, 27, Optimum Nutrition, bcaa
-120.9, 120.9, 22, Atlhetica Nutrition, bcaa
+99, 99, 27, Optimum_Nutrition, bcaa
+120.9, 120.9, 22, Atlhetica_Nutrition, bcaa
 69.99, 69.99, 70, Herbalsave, bcaa
-16, 16, 78, Atlhetica Nutrition, bcaa
-74.99, 74.99, 32, Max Titanium, bcaa
-92.9, 92.9, 33, Optimum Nutrition, bcaa
-256, 256, 20, Atlhetica Nutrition, bcaa
+16, 16, 78, Atlhetica_Nutrition, bcaa
+74.99, 74.99, 32, Max_Titanium, bcaa
+92.9, 92.9, 33, Optimum_Nutrition, bcaa
+256, 256, 20, Atlhetica_Nutrition, bcaa
 84.99, 84.99, 22, Integralmedica, bcaa
-24.8, 24.8, 17, Atlhetica Nutrition, bcaa
-19.99, 19.99, 93, Max Titanium, bcaa
+24.8, 24.8, 17, Atlhetica_Nutrition, bcaa
+19.99, 19.99, 93, Max_Titanium, bcaa
 109.65, 109.65, 41, Integralmedica, bcaa
-36, 36, 25, Atlhetica Nutrition, bcaa
+36, 36, 25, Atlhetica_Nutrition, bcaa
 143, 143, 86, Integralmedica, bcaa
-179.9, 179.9, 32, Atlhetica Nutrition, bcaa
-119.9, 119.9, 29, Black Skull, bcaa
-59.9, 59.9, 95, Max Titanium, bcaa
-24.9, 24.9, 31, Atlhetica Nutrition, bcaa
-84, 84, 59, Max Titanium, bcaa
-124.9, 124.9, 15, Atlhetica Nutrition, bcaa
-54.9, 54.9, 29, Max Titanium, bcaa
-120, 120, 76, Max Titanium, bcaa
-14.99, 14.99, 26, Atlhetica Nutrition, bcaa
+179.9, 179.9, 32, Atlhetica_Nutrition, bcaa
+119.9, 119.9, 29, Black_Skull, bcaa
+59.9, 59.9, 95, Max_Titanium, bcaa
+24.9, 24.9, 31, Atlhetica_Nutrition, bcaa
+84, 84, 59, Max_Titanium, bcaa
+124.9, 124.9, 15, Atlhetica_Nutrition, bcaa
+54.9, 54.9, 29, Max_Titanium, bcaa
+120, 120, 76, Max_Titanium, bcaa
+14.99, 14.99, 26, Atlhetica_Nutrition, bcaa
 33.92, 33.92, 54, Integralmedica, bcaa
-99.9, 99.9, 106, Atlhetica Nutrition, bcaa
-44.9, 44.9, 66, Optimum Nutrition, bcaa
-75, 75, 21, Max Titanium, bcaa
-68, 68, 512, Atlhetica Nutrition, bcaa
-99.9, 99.9, 62, Max Titanium, bcaa
-164.9, 164.9, 14, Atlhetica Nutrition, bcaa
-189.8, 189.8, 16, Gaspari Nutrition, bcaa
-99.9, 99.9, 24, Black Skull, bcaa
-69.92, 69.92, 25, Atlhetica Nutrition, bcaa
+99.9, 99.9, 106, Atlhetica_Nutrition, bcaa
+44.9, 44.9, 66, Optimum_Nutrition, bcaa
+75, 75, 21, Max_Titanium, bcaa
+68, 68, 512, Atlhetica_Nutrition, bcaa
+99.9, 99.9, 62, Max_Titanium, bcaa
+164.9, 164.9, 14, Atlhetica_Nutrition, bcaa
+189.8, 189.8, 16, Gaspari_Nutrition, bcaa
+99.9, 99.9, 24, Black_Skull, bcaa
+69.92, 69.92, 25, Atlhetica_Nutrition, bcaa
 184, 184, 32, Integralmedica, bcaa
-114.9, 114.9, 14, Atlhetica Nutrition, bcaa
-100, 100, 1, Sem Marca, bcaa
+114.9, 114.9, 14, Atlhetica_Nutrition, bcaa
+100, 100, 1, Sem_Marca, bcaa
 189.99, 189.99, 19, Gaspari, bcaa
-164.99, 164.99, 14, Atlhetica Nutrition, bcaa
-179, 179, 41, Optimum Nutrition, bcaa
-74, 74, 111, Atlhetica Nutrition, bcaa
+164.99, 164.99, 14, Atlhetica_Nutrition, bcaa
+179, 179, 41, Optimum_Nutrition, bcaa
+74, 74, 111, Atlhetica_Nutrition, bcaa
 99.9, 99.9, 27, Integralmedica, bcaa
-52.99, 52.99, 25, Max Titanium, bcaa
-138.9, 138.9, 14, Atlhetica Nutrition, bcaa
+52.99, 52.99, 25, Max_Titanium, bcaa
+138.9, 138.9, 14, Atlhetica_Nutrition, bcaa
 138.9, 138.9, 66, Herbalsave, bcaa
-11.9, 11.9, 12, Atlhetica Nutrition, bcaa
-114.9, 114.9, 85, Perfect Labs, bcaa
+11.9, 11.9, 12, Atlhetica_Nutrition, bcaa
+114.9, 114.9, 85, Perfect_Labs, bcaa
 64.11, 64.11, 111, Integralmedica, bcaa
-171, 171, 4, Atlhetica Nutrition, bcaa
-49.9, 49.9, 33, Max Titanium, bcaa
-37.92, 37.92, 28, Atlhetica Nutrition, bcaa
-134.9, 134.9, 27, Black Skull, bcaa
-18, 18, 25, Maxx Performa, bcaa
-155.9, 155.9, 99, Atlhetica Nutrition, bcaa
+171, 171, 4, Atlhetica_Nutrition, bcaa
+49.9, 49.9, 33, Max_Titanium, bcaa
+37.92, 37.92, 28, Atlhetica_Nutrition, bcaa
+134.9, 134.9, 27, Black_Skull, bcaa
+18, 18, 25, Maxx_Performa, bcaa
+155.9, 155.9, 99, Atlhetica_Nutrition, bcaa
 107.22, 107.22, 37, Integralmedica, bcaa
-269.9, 269.9, 8, Atlhetica Nutrition, bcaa
-309.9, 309.9, 19, Arnold Nutrition, bcaa
+269.9, 269.9, 8, Atlhetica_Nutrition, bcaa
+309.9, 309.9, 19, Arnold_Nutrition, bcaa
 135.08, 135.08, 79, BodyAction, bcaa
-124.9, 124.9, 48, Atlhetica Nutrition, bcaa
-59.21, 59.21, 260, Max Titanium, bcaa
-29.5, 29.5, 13, Atlhetica Nutrition, bcaa
+124.9, 124.9, 48, Atlhetica_Nutrition, bcaa
+59.21, 59.21, 260, Max_Titanium, bcaa
+29.5, 29.5, 13, Atlhetica_Nutrition, bcaa
 129.9, 129.9, 91, Integralmedica, bcaa
-14.9, 14.9, 47, Sem Marca, bcaa
-28.4, 28.4, 30, Atlhetica Nutrition, bcaa
-346.99, 346.99, 9, Max Titanium, bcaa
-122.99, 122.99, 24, Atlhetica Nutrition, bcaa
-120.1, 120.1, 23, Max Titanium, bcaa
+14.9, 14.9, 47, Sem_Marca, bcaa
+28.4, 28.4, 30, Atlhetica_Nutrition, bcaa
+346.99, 346.99, 9, Max_Titanium, bcaa
+122.99, 122.99, 24, Atlhetica_Nutrition, bcaa
+120.1, 120.1, 23, Max_Titanium, bcaa
 47.75, 47.75, 22, Integralmedica, bcaa
-85, 85, 21, Atlhetica Nutrition, bcaa
-46.99, 46.99, 62, Red Series, bcaa
-102.9, 102.9, 3, Atlhetica Nutrition, bcaa
-176.05, 176.05, 22, Optimum Nutrition, bcaa
-69.85, 69.85, 30, Optimum Nutrition, bcaa
-83, 83, 76, Atlhetica Nutrition, bcaa
+85, 85, 21, Atlhetica_Nutrition, bcaa
+46.99, 46.99, 62, Red_Series, bcaa
+102.9, 102.9, 3, Atlhetica_Nutrition, bcaa
+176.05, 176.05, 22, Optimum_Nutrition, bcaa
+69.85, 69.85, 30, Optimum_Nutrition, bcaa
+83, 83, 76, Atlhetica_Nutrition, bcaa
 149.99, 149.99, 19, Integralmedica, bcaa
-20, 20, 687, Atlhetica Nutrition, bcaa
-89.9, 89.9, 18, Optimum Nutrition, bcaa
-98, 98, 25, Max Titanium, bcaa
-17.39, 17.39, 8, Atlhetica Nutrition, bcaa
-189.95, 189.95, 15, Black Skull, bcaa
-33.9, 33.9, 18, Atlhetica Nutrition, bcaa
+20, 20, 687, Atlhetica_Nutrition, bcaa
+89.9, 89.9, 18, Optimum_Nutrition, bcaa
+98, 98, 25, Max_Titanium, bcaa
+17.39, 17.39, 8, Atlhetica_Nutrition, bcaa
+189.95, 189.95, 15, Black_Skull, bcaa
+33.9, 33.9, 18, Atlhetica_Nutrition, bcaa
 129.9, 112.2, 86, Integralmedica, bcaa
 220, 185, 29, Integralmedica, bcaa
 29.6, 29.6, 39, Oxyelite, termogenico
@@ -424,7 +424,7 @@
 59.99, 59.99, 117, Oxyelite, termogenico
 40, 40, 122, BodyAction, termogenico
 149.99, 149.99, 28, Oxyelite, termogenico
-69, 69, 139, Atlhetica Nutrition, termogenico
+69, 69, 139, Atlhetica_Nutrition, termogenico
 159.99, 159.99, 65, Nutrex, termogenico
 125, 125, 2276, Oxyelite, termogenico
 59.99, 59.99, 3873, Kimera, termogenico
@@ -452,14 +452,14 @@
 79.99, 79.99, 182, Kimera, termogenico
 52.99, 52.99, 125, Kimera, termogenico
 79.99, 79.99, 53, Oxyelite, termogenico
-24.99, 24.99, 155, Red Series, termogenico
+24.99, 24.99, 155, Red_Series, termogenico
 80.99, 80.99, 282, Kimera, termogenico
-60, 60, 3, Sem Marca, termogenico
+60, 60, 3, Sem_Marca, termogenico
 110.9, 110.9, 15, Kimera, termogenico
 81, 81, 354, Kimera, termogenico
-104.99, 104.99, 199, Nutrex, termogenico
+104.99, 104.99, 200, Nutrex, termogenico
 135.99, 135.99, 731, Nutrex, termogenico
-60, 60, 0, Sem Marca, termogenico
+60, 60, 0, Sem_Marca, termogenico
 120, 120, 44, Oxyelite, termogenico
 56.75, 56.75, 302, Kimera, termogenico
 121.8, 121.8, 87, Kimera, termogenico
@@ -468,21 +468,21 @@
 155.99, 155.99, 291, Nutrex, termogenico
 79.99, 79.99, 271, Oxyelite, termogenico
 68.4, 68.4, 11, BodyAction, termogenico
-54.9, 54.9, 132, Max Titanium, termogenico
+54.9, 54.9, 132, Max_Titanium, termogenico
 127.99, 127.99, 53, Nutrex, termogenico
 167.66, 167.66, 100, Kimera, termogenico
 120, 120, 33, Oxyelite, termogenico
-60, 60, 1, Sem Marca, termogenico
+60, 60, 1, Sem_Marca, termogenico
 128, 128, 51, Nutrex, termogenico
 167.66, 167.66, 69, Kimera, termogenico
 117.5, 117.5, 85, Kimera, termogenico
 228.5, 228.5, 14, Kimera, termogenico
 39.9, 39.9, 64, Oxyelite, termogenico
 120, 120, 61, Nutrex, termogenico
-39.99, 39.99, 130, Sem Marca, termogenico
+39.99, 39.99, 130, Sem_Marca, termogenico
 52.89, 52.89, 88, Kimera, termogenico
 65, 65, 169, Kimera, termogenico
-139.99, 139.99, 582, Sweet Sweat, termogenico
+139.99, 139.99, 582, Sweet_Sweat, termogenico
 99.99, 99.99, 22, Oxyelite, termogenico
 29, 29, 44, Kimera, termogenico
 120, 120, 74, Cellucor, termogenico
@@ -492,10 +492,10 @@
 49.69, 49.69, 27, Oxyelite, termogenico
 78.31, 78.31, 240, SineFlex, termogenico
 154.99, 154.99, 24, Nutrex, termogenico
-38, 38, 92, Black Skull, termogenico
+38, 38, 92, Black_Skull, termogenico
 69.69, 69.69, 31, Oxyelite, termogenico
 125.99, 125.99, 16, Nutrex, termogenico
-20.9, 20.9, 84, Sem Marca, termogenico
+20.9, 20.9, 84, Sem_Marca, termogenico
 162.9, 162.9, 45, Kimera, termogenico
 125, 125, 377, Oxyelite, termogenico
 239.99, 239.99, 21, Nutrex, termogenico
@@ -507,7 +507,7 @@
 64.99, 64.99, 174, Kimera, termogenico
 199.99, 199.99, 40, Oxyelite, termogenico
 134.99, 134.99, 2, Nutrex, termogenico
-144.99, 144.99, 28, Sem Marca, termogenico
+144.99, 144.99, 28, Sem_Marca, termogenico
 99.9, 99.9, 265, SineFlex, termogenico
 213.5, 213.5, 39, Kimera, termogenico
 115, 115, 19, Nutrex, termogenico
@@ -520,7 +520,7 @@
 117.9, 117.9, 38, SineFlex, termogenico
 130.99, 130.99, 46, Nutrex, termogenico
 89.99, 89.99, 22, Oxyelite, termogenico
-187.77, 187.77, 66, Sem Marca, termogenico
+187.77, 187.77, 66, Sem_Marca, termogenico
 140, 140, 28, SineFlex, termogenico
 84.99, 84.99, 14, Nutrex, termogenico
 59.99, 59.99, 58, Kimera, termogenico
@@ -538,9 +538,9 @@
 160, 160, 76, Nutrex, termogenico
 120, 120, 26, Kimera, termogenico
 154, 154, 39, Oxyelite, termogenico
-49.9, 49.9, 212, GLOBAL NUTRITION, termogenico
+49.9, 49.9, 212, GLOBAL_NUTRITION, termogenico
 120, 120, 11, Nutrex, termogenico
-144.99, 144.99, 49, hi tech, termogenico
+144.99, 144.99, 49, hi_tech, termogenico
 62.69, 62.69, 52, Kimera, termogenico
 187, 187, 39, Oxyelite, termogenico
 139.99, 139.99, 20, Nutrex, termogenico
@@ -548,7 +548,7 @@
 147.7, 147.7, 17, SineFlex, termogenico
 105, 105, 4, Oxyelite, termogenico
 135, 135, 14, Nutrex, termogenico
-34.9, 34.9, 249, Atlhetica Nutrition, termogenico
+34.9, 34.9, 249, Atlhetica_Nutrition, termogenico
 79.9, 79.9, 26, Integralmedica, termogenico
 79.4, 79.4, 22, Kimera, termogenico
 169, 169, 134, Oxyelite, termogenico
@@ -558,7 +558,7 @@
 109.9, 109.9, 125, Oxyelite, termogenico
 99, 99, 15, Nutrex, termogenico
 49.69, 49.69, 41, Kimera, termogenico
-49.9, 49.9, 21, Black Mamba , termogenico
+49.9, 49.9, 21, Black_Mamba_, termogenico
 49.8, 49.8, 236, SineFlex, termogenico
 208.9, 208.9, 9, Nutrex, termogenico
 145, 145, 3, Oxyelite, termogenico
@@ -566,14 +566,14 @@
 46.99, 46.99, 44, SineFlex, termogenico
 119.99, 119.99, 277, Nutrex, termogenico
 65.9, 65.9, 3, Oxyelite, termogenico
-24.99, 24.99, 47, Black Skull, termogenico
+24.99, 24.99, 47, Black_Skull, termogenico
 79.9, 79.9, 36, Kimera, termogenico
 139, 139, 10, Nutrex, termogenico
 249.99, 249.99, 5, Oxyelite, termogenico
 55.5, 55.5, 109, Probiotica, termogenico
 59.9, 59.9, 46, Kimera, termogenico
 125.99, 125.99, 7, Nutrex, termogenico
-277.9, 277.9, 16, Sweet Sweat, termogenico
+277.9, 277.9, 16, Sweet_Sweat, termogenico
 125, 125, 4, Oxyelite, termogenico
 258.5, 258.5, 22, Kimera, termogenico
 139.99, 139.99, 12, Nutrex, termogenico
@@ -581,25 +581,25 @@
 240, 240, 3, Oxyelite, termogenico
 118, 118, 85, Kimera, termogenico
 150.99, 150.99, 7, Nutrex, termogenico
-45.9, 45.9, 47, Sem Marca, termogenico
+45.9, 45.9, 47, Sem_Marca, termogenico
 63.7, 63.7, 55, Kimera, termogenico
 122, 122, 6, Oxyelite, termogenico
 84.9, 84.9, 17, Pandora, termogenico
 120, 120, 9, Nutrex, termogenico
 139.99, 139.99, 48, Cellucor, termogenico
 39.9, 39.9, 2, Oxyelite, termogenico
-29.75, 29.75, 108, RED SERIES, termogenico
+29.75, 29.75, 108, RED_SERIES, termogenico
 148.99, 148.99, 24, Nutrex, termogenico
-45.82, 45.82, 35, Atlhetica Nutrition, termogenico
-219.9, 219.9, 72, Arnold Nutrition, termogenico
+45.82, 45.82, 35, Atlhetica_Nutrition, termogenico
+219.9, 219.9, 72, Arnold_Nutrition, termogenico
 123.9, 123.9, 5, Oxyelite, termogenico
 119.98, 119.98, 169, Nutrex, termogenico
-45.99, 45.99, 23, Max Titanium, termogenico
-27, 27, 28, Max Titanium, termogenico
+45.99, 45.99, 23, Max_Titanium, termogenico
+27, 27, 28, Max_Titanium, termogenico
 139.9, 139.9, 18, Oxyelite, termogenico
 123.99, 123.99, 307, Nutrex, termogenico
 59.9, 59.9, 246, SineFlex, termogenico
-69.9, 69.9, 31, Power Supplements, termogenico
+69.9, 69.9, 31, Power_Supplements, termogenico
 55.9, 55.9, 28, Kimera, termogenico
 101.95, 101.95, 8, Nutrex, termogenico
 189.9, 189.9, 1, Oxyelite, termogenico
@@ -607,569 +607,569 @@
 75.64, 75.64, 49, Integralmedica, termogenico
 152.98, 152.98, 7, Nutrex, termogenico
 129.9, 129.9, 1, Oxyelite, termogenico
-300, 300, 17, Sem Marca, termogenico
+300, 300, 17, Sem_Marca, termogenico
 113.9, 113.9, 50, SineFlex, termogenico
-46.8, 46.8, 62, GLOBAL NUTRITION, termogenico
+46.8, 46.8, 62, GLOBAL_NUTRITION, termogenico
 139.8, 139.8, 6, Nutrex, termogenico
 39.9, 39.9, 2, Oxyelite, termogenico
-42.9, 42.9, 19, Sem Marca, termogenico
-60.99, 60.99, 142, Sem Marca, termogenico
+42.9, 42.9, 19, Sem_Marca, termogenico
+60.99, 60.99, 142, Sem_Marca, termogenico
 120, 120, 6, Nutrex, termogenico
 59.9, 59.9, 430, NewNutrition, glutamina
 99.98, 99.98, 126, NewNutrition, glutamina
 47.2, 47.2, 655, Integralmedica, glutamina
-73.4, 73.4, 334, Soldiers Nutrition, glutamina
-64.99, 64.99, 420, Sem Marca, glutamina
+73.4, 73.4, 334, Soldiers_Nutrition, glutamina
+64.99, 64.99, 420, Sem_Marca, glutamina
 30, 30, 54, Probiotica, glutamina
 67, 67, 344, Integralmedica, glutamina
-69.99, 69.99, 233, Sem Marca, glutamina
+69.99, 69.99, 233, Sem_Marca, glutamina
 46.2, 46.2, 169, Integralmedica, glutamina
 120.1, 120.1, 61, Integralmedica, glutamina
-64.99, 64.99, 231, Sem Marca, glutamina
+64.99, 64.99, 231, Sem_Marca, glutamina
 87.99, 87.99, 211, NutraNatus, glutamina
 159.92, 135.9, 82, NewNutrition, glutamina
-85.99, 85.99, 251, Sem Marca, glutamina
+85.99, 85.99, 251, Sem_Marca, glutamina
 30, 30, 101, Integralmedica, glutamina
-50, 50, 34, Maxx Power Nutrition, glutamina
-149.9, 149.9, 320, Performance Nutrition, glutamina
-29.9, 29.9, 66, Red nutrition, glutamina
+50, 50, 34, Maxx_Power_Nutrition, glutamina
+149.9, 149.9, 320, Performance_Nutrition, glutamina
+29.9, 29.9, 66, Red_nutrition, glutamina
 64.99, 64.99, 129, NutraNatus, glutamina
 44.9, 44.9, 67, Integralmedica, glutamina
-42.8, 42.8, 91, Performance Nutrition, glutamina
+42.8, 42.8, 91, Performance_Nutrition, glutamina
 149.9, 149.9, 146, performance, glutamina
-48, 48, 82, Sem Marca, glutamina
-139, 139, 27, Optimum Nutrition, glutamina
+48, 48, 82, Sem_Marca, glutamina
+139, 139, 27, Optimum_Nutrition, glutamina
 39.9, 39.9, 206, performance, glutamina
-68.6, 68.6, 68, Max Titanium, glutamina
-33.79, 33.79, 73, Max Titanium, glutamina
-124.8, 124.8, 88, Red Nutrition, glutamina
-30, 30, 52, Atlhetica Nutrition, glutamina
+68.6, 68.6, 68, Max_Titanium, glutamina
+33.79, 33.79, 73, Max_Titanium, glutamina
+124.8, 124.8, 88, Red_Nutrition, glutamina
+30, 30, 52, Atlhetica_Nutrition, glutamina
 120, 120, 36, Integralmedica, glutamina
 35, 35, 55, NewNutrition, glutamina
-122.9, 122.9, 132, Max Titanium, glutamina
+122.9, 122.9, 132, Max_Titanium, glutamina
 61.12, 61.12, 32, Integralmedica, glutamina
-163.8, 163.8, 3, Black Skull, glutamina
-29.9, 29.9, 40, red nutrition, glutamina
+163.8, 163.8, 3, Black_Skull, glutamina
+29.9, 29.9, 40, red_nutrition, glutamina
 61.53, 61.53, 47, Integralmedica, glutamina
-110, 110, 0, Black Skull, glutamina
+110, 110, 0, Black_Skull, glutamina
 88, 88, 119, Vitafor, glutamina
 139.99, 139.99, 19, NutraNatus, glutamina
 45, 45, 22, Integralmedica, glutamina
-149.9, 149.9, 63, Performance Nutrition, glutamina
-31.3, 31.3, 35, Sem Marca, glutamina
-149.9, 149.9, 50, Optimum Nutrition, glutamina
+149.9, 149.9, 63, Performance_Nutrition, glutamina
+31.3, 31.3, 35, Sem_Marca, glutamina
+149.9, 149.9, 50, Optimum_Nutrition, glutamina
 167.12, 167.12, 109, NewNutrition, glutamina
-28.38, 28.38, 45, Sem Marca, glutamina
+28.38, 28.38, 45, Sem_Marca, glutamina
 250.26, 250.26, 4, NewNutrition, glutamina
-73.9, 73.9, 78, Max Titanium, glutamina
-120.99, 120.99, 29, Max Titanium, glutamina
+73.9, 73.9, 78, Max_Titanium, glutamina
+120.99, 120.99, 29, Max_Titanium, glutamina
 165, 165, 21, Integralmedica, glutamina
-255.86, 255.86, 1, Black Skull, glutamina
-189.9, 189.9, 20, Sem Marca, glutamina
-158.4, 158.4, 103, Performance Nutrition, glutamina
+255.86, 255.86, 1, Black_Skull, glutamina
+189.9, 189.9, 20, Sem_Marca, glutamina
+158.4, 158.4, 103, Performance_Nutrition, glutamina
 145, 122.5, 29, NewNutrition, glutamina
 66.4, 66.4, 19, XGen, glutamina
 200, 170, 11, NewNutrition, glutamina
-108.11, 108.11, 1, Black Skull, glutamina
-285.99, 285.99, 24, Optimum Nutrition, glutamina
-129, 129, 1, Black Skull, glutamina
+108.11, 108.11, 1, Black_Skull, glutamina
+285.99, 285.99, 24, Optimum_Nutrition, glutamina
+129, 129, 1, Black_Skull, glutamina
 88, 88, 21, Vitafor, glutamina
-289.9, 289.9, 25, Perfomance Nutrition, glutamina
+289.9, 289.9, 25, Perfomance_Nutrition, glutamina
 69.9, 69.9, 41, Integralmedica, glutamina
-103.5, 103.5, 15, Max Titanium, glutamina
-85, 85, 31, Sem Marca, glutamina
-144.99, 144.99, 37, Sem Marca, glutamina
-199.99, 199.99, 16, Optimum Nutrition, glutamina
-189.9, 189.9, 7, Black Skull, glutamina
+103.5, 103.5, 15, Max_Titanium, glutamina
+85, 85, 31, Sem_Marca, glutamina
+144.99, 144.99, 37, Sem_Marca, glutamina
+199.99, 199.99, 16, Optimum_Nutrition, glutamina
+189.9, 189.9, 7, Black_Skull, glutamina
 128.7, 128.7, 7, Integralmedica, glutamina
 185.83, 185.83, 2, NewNutrition, glutamina
 35, 35, 10, NewNutrition, glutamina
-215, 215, 36, New Millen, glutamina
-139.9, 139.9, 37, Soldiers Nutrition, glutamina
-299.9, 299.9, 31, Optimum Nutrition, glutamina
-80, 80, 14, Black Skull, glutamina
+215, 215, 36, New_Millen, glutamina
+139.9, 139.9, 37, Soldiers_Nutrition, glutamina
+299.9, 299.9, 31, Optimum_Nutrition, glutamina
+80, 80, 14, Black_Skull, glutamina
 99.9, 99.9, 12, Dymatize, glutamina
 170, 170, 2, NewNutrition, glutamina
 69.9, 69.9, 15, Integralmedica, glutamina
-35, 35, 21, Optimum Nutrition, glutamina
+35, 35, 21, Optimum_Nutrition, glutamina
 34, 34, 0, Integralmedica, glutamina
-149.99, 149.99, 20, Sem Marca, glutamina
+149.99, 149.99, 20, Sem_Marca, glutamina
 179.9, 179.9, 0, Integralmedica, glutamina
-249.99, 249.99, 47, Sem Marca, glutamina
-249.99, 249.99, 17, Sem Marca, glutamina
-139.9, 139.9, 29, Optimum Nutrition, glutamina
+249.99, 249.99, 47, Sem_Marca, glutamina
+249.99, 249.99, 17, Sem_Marca, glutamina
+139.9, 139.9, 29, Optimum_Nutrition, glutamina
 94.9, 94.9, 6, NewNutrition, glutamina
-69.99, 69.99, 22, Maxx Power Nutrition, glutamina
+69.99, 69.99, 22, Maxx_Power_Nutrition, glutamina
 144.24, 144.24, 11, Integralmedica, glutamina
 163.95, 163.95, 5, Universal, glutamina
 164.22, 164.22, 8, NewNutrition, glutamina
 77, 77, 15, Integralmedica, glutamina
 300.12, 300.12, 1, NewNutrition, glutamina
-174.85, 174.85, 12, Allmax Nutrition, glutamina
-172.99, 172.99, 45, Optimum Nutrition, glutamina
-1200, 1200, 2, Performance Nutrition, glutamina
-151, 151, 18, Max Titanium, glutamina
+174.85, 174.85, 12, Allmax_Nutrition, glutamina
+172.99, 172.99, 45, Optimum_Nutrition, glutamina
+1200, 1200, 2, Performance_Nutrition, glutamina
+151, 151, 18, Max_Titanium, glutamina
 106.9, 106.9, 11, Performance, glutamina
 259.64, 259.64, 1, NewNutrition, glutamina
-289.9, 289.9, 5, Black Skull, glutamina
+289.9, 289.9, 5, Black_Skull, glutamina
 56.99, 56.99, 30, Integralmedica, glutamina
-40, 40, 13, Atlhetica Nutrition, glutamina
+40, 40, 13, Atlhetica_Nutrition, glutamina
 75.7, 75.7, 11, Integralmedica/Performance, glutamina
-251.4, 251.4, 5, Integralmedica + Performance Nutrition, glutamina
-49.99, 49.99, 10, Max Titanium, glutamina
-85.99, 85.99, 10, Max Titanium, glutamina
+251.4, 251.4, 5, Integralmedica_+_Performance_Nutrition, glutamina
+49.99, 49.99, 10, Max_Titanium, glutamina
+85.99, 85.99, 10, Max_Titanium, glutamina
 203.62, 203.62, 1, NewNutrition, glutamina
 138.9, 138.9, 10, Integralmedica, glutamina
 86.99, 86.99, 9, Vitafor, glutamina
 93.5, 93.5, 8, Probiotica, glutamina
-228.95, 228.95, 11, Sem Marca, glutamina
-156.1, 156.1, 6, Allmax Nutrition, glutamina
+228.95, 228.95, 11, Sem_Marca, glutamina
+156.1, 156.1, 6, Allmax_Nutrition, glutamina
 67, 67, 55, Integralmedica, glutamina
 284.7, 284.7, 1, NewNutrition, glutamina
-197.68, 197.68, 10, Max Titanium, glutamina
-249.99, 249.99, 12, Sem Marca, glutamina
-301.97, 301.97, 4, Sem Marca, glutamina
+197.68, 197.68, 10, Max_Titanium, glutamina
+249.99, 249.99, 12, Sem_Marca, glutamina
+301.97, 301.97, 4, Sem_Marca, glutamina
 133.8, 133.8, 9, Integralmedica, glutamina
-86.78, 86.78, 19, Black Skull, glutamina
+86.78, 86.78, 19, Black_Skull, glutamina
 210, 210, 11, Probiotica, glutamina
-24.9, 24.9, 9, Mais Nutrition, glutamina
+24.9, 24.9, 9, Mais_Nutrition, glutamina
 167.12, 167.12, 1, NewNutrition, glutamina
 321.9, 321.9, 9, MHP, glutamina
 45.99, 45.99, 123, Integralmedica, glutamina
-189, 189, 5, Sem Marca, glutamina
+189, 189, 5, Sem_Marca, glutamina
 119.99, 119.99, 5, Dymatize, glutamina
-83.8, 83.8, 12, Performance Nutrition, glutamina
-199.9, 199.9, 3, Ultimate Nutrition, glutamina
+83.8, 83.8, 12, Performance_Nutrition, glutamina
+199.9, 199.9, 3, Ultimate_Nutrition, glutamina
 263.74, 263.74, 4, Integralmedica, glutamina
 185.92, 185.92, 1, NewNutrition, glutamina
-32.79, 32.79, 20, Max Titanium, glutamina
+32.79, 32.79, 20, Max_Titanium, glutamina
 114.5, 114.5, 6, XGen, glutamina
 120, 120, 11, MPN, glutamina
-99.9, 99.9, 22, Atlhetica Nutrition, glutamina
+99.9, 99.9, 22, Atlhetica_Nutrition, glutamina
 120, 120, 4, Integralmedica, glutamina
-58.7, 58.7, 9, Sem Marca, glutamina
+58.7, 58.7, 9, Sem_Marca, glutamina
 195.29, 195.29, 1, NewNutrition, glutamina
-69.9, 69.9, 113, Max Titanium, glutamina
-41.7, 41.7, 20, Sem Marca, glutamina
-215, 215, 76, New Millen, glutamina
+69.9, 69.9, 113, Max_Titanium, glutamina
+41.7, 41.7, 20, Sem_Marca, glutamina
+215, 215, 76, New_Millen, glutamina
 114.9, 114.9, 4, Integralmedica, glutamina
-49.38, 49.38, 8, Optimum Nutrition, glutamina
-189.99, 189.99, 5, Optimum Nutrition, glutamina
-68.47, 68.47, 10, Sem Marca, glutamina
+49.38, 49.38, 8, Optimum_Nutrition, glutamina
+189.99, 189.99, 5, Optimum_Nutrition, glutamina
+68.47, 68.47, 10, Sem_Marca, glutamina
 175.32, 175.32, 1, NewNutrition, glutamina
 120.75, 120.75, 5, Integralmedica, glutamina
-189.9, 189.9, 66, Optimum Nutrition, glutamina
-124.22, 124.22, 6, Max Titanium, glutamina
-71.2, 71.2, 8, New Millen, glutamina
-262, 262, 4, New Millen, glutamina
-59.99, 59.99, 16, Sem Marca, glutamina
+189.9, 189.9, 66, Optimum_Nutrition, glutamina
+124.22, 124.22, 6, Max_Titanium, glutamina
+71.2, 71.2, 8, New_Millen, glutamina
+262, 262, 4, New_Millen, glutamina
+59.99, 59.99, 16, Sem_Marca, glutamina
 166.6, 166.6, 2, Integralmedica, glutamina
 70, 70, 0, NewNutrition, glutamina
-143, 143, 5, Black Skull, glutamina
-149.99, 149.99, 12, Sem Marca, glutamina
-195, 195, 2, Black Skull, glutamina
+143, 143, 5, Black_Skull, glutamina
+149.99, 149.99, 12, Sem_Marca, glutamina
+195, 195, 2, Black_Skull, glutamina
 149, 149, 2, Integralmedica, glutamina
 76.56, 76.56, 2, Probiotica, glutamina
-75.5, 75.5, 5, Max Titanium, glutamina
+75.5, 75.5, 5, Max_Titanium, glutamina
 35, 35, 3, NewNutrition, glutamina
-89.9, 89.9, 4, Optimum Nutrition, glutamina
+89.9, 89.9, 4, Optimum_Nutrition, glutamina
 46, 46, 5, Nutrata, glutamina
 121, 121, 3, Integralmedica, glutamina
-325, 325, 3, Max Titanium, glutamina
+325, 325, 3, Max_Titanium, glutamina
 1250, 1250, 1, Performance, glutamina
-59.9, 59.9, 31, Optimum Nutrition, glutamina
-89.99, 89.99, 4, Atlhetica Nutrition, glutamina
-40.75, 40.75, 5, Sem Marca, glutamina
+59.9, 59.9, 31, Optimum_Nutrition, glutamina
+89.99, 89.99, 4, Atlhetica_Nutrition, glutamina
+40.75, 40.75, 5, Sem_Marca, glutamina
 67, 67, 6, Integralmedica, glutamina
 159.42, 159.42, 0, NewNutrition, glutamina
-69.99, 69.99, 12, Maxx Power Nutrition, glutamina
-55.84, 55.84, 3, Max Titanium, glutamina
-215, 215, 20, New Millen, glutamina
-109.9, 109.9, 22, gaspari nutrition, glutamina
+69.99, 69.99, 12, Maxx_Power_Nutrition, glutamina
+55.84, 55.84, 3, Max_Titanium, glutamina
+215, 215, 20, New_Millen, glutamina
+109.9, 109.9, 22, gaspari_nutrition, glutamina
 36.88, 36.88, 4, Integralmedica, glutamina
-146.37, 146.37, 1, Sem Marca, glutamina
+146.37, 146.37, 1, Sem_Marca, glutamina
 199.74, 199.74, 0, NewNutrition, glutamina
-129.99, 129.99, 22, Max Titanium, glutamina
-49.9, 49.9, 14, Sem Marca, glutamina
+129.99, 129.99, 22, Max_Titanium, glutamina
+49.9, 49.9, 14, Sem_Marca, glutamina
 37.9, 37.9, 4, Integralmedica, glutamina
-210, 210, 58, Max Titanium, glutamina
-349.9, 349.9, 2, Lauton Nutrition, glutamina
+210, 210, 58, Max_Titanium, glutamina
+349.9, 349.9, 2, Lauton_Nutrition, glutamina
 219.57, 219.57, 0, NewNutrition, glutamina
 44, 44, 3, XGen, glutamina
-119.9, 119.9, 4, red nutrition, glutamina
+119.9, 119.9, 4, red_nutrition, glutamina
 68.9, 68.9, 88, Integralmedica, glutamina
 120, 120, 4, Dymatize, glutamina
 167.12, 167.12, 23, NewNutrition, glutamina
-153.4, 153.4, 3, Allmax Nutrition, glutamina
+153.4, 153.4, 3, Allmax_Nutrition, glutamina
 29.99, 29.99, 5, NeoNutri, glutamina
 115.9, 115.9, 8, Vitafor, glutamina
 72.75, 72.75, 2, Integralmedica, glutamina
 169.77, 169.77, 0, NewNutrition, glutamina
-57.92, 57.92, 5, Sem Marca, glutamina
+57.92, 57.92, 5, Sem_Marca, glutamina
 43.99, 43.99, 6, XGen, glutamina
-166, 166, 1, Sem Marca, glutamina
+166, 166, 1, Sem_Marca, glutamina
 114.9, 114.9, 2, Integralmedica, glutamina
 69.9, 69.9, 1, Probiotica, glutamina
-120, 120, 5, Maxx Power Nutrition, glutamina
+120, 120, 5, Maxx_Power_Nutrition, glutamina
 247, 247, 0, NewNutrition, glutamina
-120, 120, 26, Max Titanium, glutamina
-149.99, 149.99, 9, Sem Marca, glutamina
+120, 120, 26, Max_Titanium, glutamina
+149.99, 149.99, 9, Sem_Marca, glutamina
 169.74, 169.74, 1, Integralmedica, glutamina
-52.56, 19.9, 622, Creatina Monohidratada - 150 G - Nitech Nutrition, creatina
-64.87, 49.9, 361, Max Titanium, creatina
+52.56, 19.9, 622, Creatina_Monohidratada_-_150_G_-_Nitech_Nutrition, creatina
+64.87, 49.9, 361, Max_Titanium, creatina
 42, 42, 650, Integralmedica, creatina
-19.41, 19.41, 477, Max Titanium, creatina
-42.5, 42.5, 937, Soldiers Nutrition, creatina
-55, 55, 992, Max Titanium, creatina
-53.25, 42.6, 511, Max Titanium, creatina
+19.41, 19.41, 477, Max_Titanium, creatina
+42.5, 42.5, 937, Soldiers_Nutrition, creatina
+55, 55, 992, Max_Titanium, creatina
+53.25, 42.6, 511, Max_Titanium, creatina
 47.99, 47.99, 748, Universal, creatina
 74.99, 74.99, 213, NutraNatus, creatina
 179.1, 179.1, 220, Integralmedica, creatina
-17.4, 17.4, 478, Max Titanium, creatina
-69.9, 69.9, 403, Optimum Nutrition, creatina
+17.4, 17.4, 478, Max_Titanium, creatina
+69.9, 69.9, 403, Optimum_Nutrition, creatina
 42.42, 42.42, 197, Integralmedica, creatina
-14.89, 14.89, 138, Atlhetica Nutrition, creatina
+14.89, 14.89, 138, Atlhetica_Nutrition, creatina
 99.8, 99.8, 48, Integralmedica, creatina
-45.8, 45.8, 145, Black Skull, creatina
-55, 55, 37, Extreme Manipulacao, creatina
+45.8, 45.8, 145, Black_Skull, creatina
+55, 55, 37, Extreme_Manipulacao, creatina
 39.4, 39.4, 212, Integralmedica, creatina
 82, 82, 533, Universal, creatina
-82.5, 82.5, 112, Max Titanium, creatina
-79.9, 79.9, 167, Sem Marca, creatina
-54.99, 54.99, 121, Sem Marca, creatina
-55, 55, 291, Max Titanium, creatina
+82.5, 82.5, 112, Max_Titanium, creatina
+79.9, 79.9, 167, Sem_Marca, creatina
+54.99, 54.99, 121, Sem_Marca, creatina
+55, 55, 291, Max_Titanium, creatina
 32.9, 32.9, 17, Integralmedica, creatina
-74, 74, 28, Max Titanium, creatina
+74, 74, 28, Max_Titanium, creatina
 198.83, 198.83, 49, Universal, creatina
-32, 32, 297, Max Titanium, creatina
+32, 32, 297, Max_Titanium, creatina
 38.9, 38.9, 124, Universal, creatina
-51.58, 51.58, 189, Black Skull, creatina
-88.76, 88.76, 7, Black Skull, creatina
+51.58, 51.58, 189, Black_Skull, creatina
+88.76, 88.76, 7, Black_Skull, creatina
 105, 105, 860, Universal, creatina
 39.8, 39.8, 324, Universal, creatina
 17, 17, 21, Integralmedica, creatina
-79.9, 79.9, 209, Optimum Nutrition, creatina
-48.9, 48.9, 196, Max Titanium, creatina
+79.9, 79.9, 209, Optimum_Nutrition, creatina
+48.9, 48.9, 196, Max_Titanium, creatina
 104.99, 104.99, 1037, Universal, creatina
-16.9, 16.9, 108, Sem Marca, creatina
-17.9, 17.9, 94, Mais Nutrition, creatina
-48.9, 48.9, 273, Sem Marca, creatina
+16.9, 16.9, 108, Sem_Marca, creatina
+17.9, 17.9, 94, Mais_Nutrition, creatina
+48.9, 48.9, 273, Sem_Marca, creatina
 38.8, 38.8, 26, Probiotica, creatina
 143.8, 143.8, 49, Integralmedica, creatina
 47.9, 47.9, 33, Universal, creatina
 44.3, 44.3, 28, Universal, creatina
-39.89, 39.89, 19, Atlhetica Nutrition, creatina
+39.89, 39.89, 19, Atlhetica_Nutrition, creatina
 49.4, 49.4, 0, GoldsNutrition, creatina
-114.99, 114.99, 64, Sem Marca, creatina
+114.99, 114.99, 64, Sem_Marca, creatina
 120, 120, 122, Universal, creatina
 67.9, 67.9, 24, Universal, creatina
 97, 97, 43, Universal, creatina
-48.99, 48.99, 414, Sem Marca, creatina
-44.99, 44.99, 55, Sem Marca, creatina
-65, 65, 1, Sem Marca, creatina
-38.34, 38.34, 40, Max Titanium, creatina
-148.99, 148.99, 116, Sem Marca, creatina
+48.99, 48.99, 414, Sem_Marca, creatina
+44.99, 44.99, 55, Sem_Marca, creatina
+65, 65, 1, Sem_Marca, creatina
+38.34, 38.34, 40, Max_Titanium, creatina
+148.99, 148.99, 116, Sem_Marca, creatina
 41, 41, 37, Integralmedica, creatina
 50, 50, 33, Integralmedica, creatina
-35.4, 35.4, 9, Max Titanium, creatina
-76.99, 76.99, 99, Sem Marca, creatina
-69.9, 69.9, 31, Max Titanium, creatina
-48.78, 48.78, 64, Max Titanium, creatina
-120, 120, 30, Max Titanium, creatina
+35.4, 35.4, 9, Max_Titanium, creatina
+76.99, 76.99, 99, Sem_Marca, creatina
+69.9, 69.9, 31, Max_Titanium, creatina
+48.78, 48.78, 64, Max_Titanium, creatina
+120, 120, 30, Max_Titanium, creatina
 88, 88, 44, Universal, creatina
 37, 37, 113, Probiotica, creatina
-135, 135, 55, Sem Marca, creatina
+135, 135, 55, Sem_Marca, creatina
 38.43, 38.43, 44, Integralmedica, creatina
 69.9, 69.9, 478, Universal, creatina
-90, 90, 20, Max Titanium, creatina
-73.74, 73.74, 2, Black Skull, creatina
+90, 90, 20, Max_Titanium, creatina
+73.74, 73.74, 2, Black_Skull, creatina
 49.9, 49.9, 133, Probiotica, creatina
-35, 35, 14, Max Titanium, creatina
+35, 35, 14, Max_Titanium, creatina
 39.99, 39.99, 59, Probiotica, creatina
-30, 30, 30, Max Titanium, creatina
-42, 42, 57, Optimum Nutrition, creatina
-54.99, 54.99, 35, Max Titanium, creatina
+30, 30, 30, Max_Titanium, creatina
+42, 42, 57, Optimum_Nutrition, creatina
+54.99, 54.99, 35, Max_Titanium, creatina
 100, 100, 11, Universal, creatina
 42, 42, 19, Universal, creatina
-49.9, 49.9, 33, Sem Marca, creatina
+49.9, 49.9, 33, Sem_Marca, creatina
 61.95, 61.95, 25, Probiotica, creatina
 97.65, 97.65, 42, NewNutrition, creatina
-29.8, 29.8, 120, Sem Marca, creatina
-85, 85, 0, Sem Marca, creatina
+29.8, 29.8, 120, Sem_Marca, creatina
+85, 85, 0, Sem_Marca, creatina
 38.5, 38.5, 17, Integralmedica, creatina
 30.9, 30.9, 188, Universal, creatina
-41.43, 41.43, 8, Max Titanium, creatina
+41.43, 41.43, 8, Max_Titanium, creatina
 99.98, 99.98, 565, NutraNatus, creatina
-14, 14, 44, Atlhetica Nutrition, creatina
+14, 14, 44, Atlhetica_Nutrition, creatina
 68.99, 68.99, 50, Integralmedica, creatina
-48.78, 48.78, 368, Max Titanium, creatina
+48.78, 48.78, 368, Max_Titanium, creatina
 89.99, 89.99, 56, Universal, creatina
-65, 65, 0, Sem Marca, creatina
-58.94, 58.94, 32, 4 Fuel, creatina
-69.9, 69.9, 17, Black Skull, creatina
-17.25, 17.25, 9, Max Titanium, creatina
-57.99, 57.99, 65, Sem Marca, creatina
+65, 65, 0, Sem_Marca, creatina
+58.94, 58.94, 32, 4_Fuel, creatina
+69.9, 69.9, 17, Black_Skull, creatina
+17.25, 17.25, 9, Max_Titanium, creatina
+57.99, 57.99, 65, Sem_Marca, creatina
 42, 42, 121, Universal, creatina
 33, 33, 12, Integralmedica, creatina
-307.6, 307.6, 10, Ultimate Nutrition, creatina
-35.19, 35.19, 0, Max Titanium, creatina
-87.04, 87.04, 55, Max Titanium, creatina
-73.99, 73.99, 39, Optimum Nutrition, creatina
+307.6, 307.6, 10, Ultimate_Nutrition, creatina
+35.19, 35.19, 0, Max_Titanium, creatina
+87.04, 87.04, 55, Max_Titanium, creatina
+73.99, 73.99, 39, Optimum_Nutrition, creatina
 284.12, 284.12, 2, Universal, creatina
 38.9, 38.9, 46, Probiotica, creatina
-39.99, 39.99, 26, Sem Marca, creatina
-48.77, 48.77, 14, Max Titanium, creatina
+39.99, 39.99, 26, Sem_Marca, creatina
+48.77, 48.77, 14, Max_Titanium, creatina
 61.85, 61.85, 64, Integralmedica, creatina
 54.99, 54.99, 520, Universal, creatina
-22.9, 22.9, 59, Sem Marca, creatina
-557, 557, 2, Max Titanium, creatina
+22.9, 22.9, 59, Sem_Marca, creatina
+557, 557, 2, Max_Titanium, creatina
 66.9, 66.9, 14, Dymatize, creatina
-59, 59, 25, Sem Marca, creatina
+59, 59, 25, Sem_Marca, creatina
 16.9, 16.9, 14, Integralmedica, creatina
 69.9, 69.9, 10, Universal, creatina
-24.99, 24.99, 21, Max Titanium, creatina
+24.99, 24.99, 21, Max_Titanium, creatina
 199.98, 199.98, 58, NutraNatus, creatina
-17.9, 17.9, 29, Sem Marca, creatina
+17.9, 17.9, 29, Sem_Marca, creatina
 107.9, 107.9, 22, Universal, creatina
-29.9, 29.9, 42, Max Titanium, creatina
+29.9, 29.9, 42, Max_Titanium, creatina
 44, 44, 36, Integralmedica, creatina
-25.9, 25.9, 39, Sem Marca, creatina
-74.5, 74.5, 161, Puritan's Pride, creatina
-48.79, 48.79, 6, Max Titanium, creatina
+25.9, 25.9, 39, Sem_Marca, creatina
+74.5, 74.5, 161, Puritans_Pride, creatina
+48.79, 48.79, 6, Max_Titanium, creatina
 63, 63, 12, Universal, creatina
-54.86, 54.86, 19, Optimum Nutrition, creatina
-120, 120, 21, Sem Marca, creatina
-48.78, 48.78, 20, Max Titanium, creatina
+54.86, 54.86, 19, Optimum_Nutrition, creatina
+120, 120, 21, Sem_Marca, creatina
+48.78, 48.78, 20, Max_Titanium, creatina
 39, 39, 31, Integralmedica, creatina
 64.9, 64.9, 227, Universal, creatina
-49.9, 49.9, 27, Ultimate Nutrition, creatina
-35, 35, 6, Sem Marca, creatina
-50, 50, 16, Max Titanium, creatina
-217.9, 217.9, 12, Sem Marca, creatina
+49.9, 49.9, 27, Ultimate_Nutrition, creatina
+35, 35, 6, Sem_Marca, creatina
+50, 50, 16, Max_Titanium, creatina
+217.9, 217.9, 12, Sem_Marca, creatina
 128.8, 128.8, 5, Universal, creatina
 53, 53, 6, Integralmedica, creatina
-323.9, 323.9, 2, Max Titanium, creatina
-169, 169, 8, Black Skull, creatina
-58.94, 58.94, 10, Arnold Nutrition, creatina
+323.9, 323.9, 2, Max_Titanium, creatina
+169, 169, 8, Black_Skull, creatina
+58.94, 58.94, 10, Arnold_Nutrition, creatina
 104.9, 104.9, 3, Universal, creatina
-34.9, 34.9, 20, Max Titanium, creatina
+34.9, 34.9, 20, Max_Titanium, creatina
 42.42, 42.42, 17, Integralmedica, creatina
-44.5, 44.5, 15, Optimum Nutrition, creatina
-55, 55, 15, Sem Marca, creatina
+44.5, 44.5, 15, Optimum_Nutrition, creatina
+55, 55, 15, Sem_Marca, creatina
 89.9, 89.9, 5, Universal, creatina
-80, 80, 6, Max Titanium, creatina
-123.9, 123.9, 13, Atlhetica Nutrition, creatina
-58.99, 58.99, 33, Sem Marca, creatina
+80, 80, 6, Max_Titanium, creatina
+123.9, 123.9, 13, Atlhetica_Nutrition, creatina
+58.99, 58.99, 33, Sem_Marca, creatina
 77.9, 77.9, 172, Integralmedica, creatina
-71.54, 54.2, 4, Max Titanium, creatina
+71.54, 54.2, 4, Max_Titanium, creatina
 234, 234, 3, Universal, creatina
 29.9, 29.9, 59, Probiotica, creatina
-38.8, 38.8, 21, Sem Marca, creatina
-31.41, 31.41, 10, Max Titanium, creatina
+38.8, 38.8, 21, Sem_Marca, creatina
+31.41, 31.41, 10, Max_Titanium, creatina
 99.94, 99.94, 7, Universal, creatina
 65.9, 65.9, 57, Probiotica, creatina
 33, 33, 3, Integralmedica, creatina
 120.17, 120.17, 23, Muscletech, creatina
-57, 57, 6, Max Titanium, creatina
+57, 57, 6, Max_Titanium, creatina
 72.9, 72.9, 10, Universal, creatina
-167.2, 167.2, 14, Sem Marca, creatina
-34, 34, 11, Black Skull, creatina
-338, 338, 0, Max Titanium, creatina
+167.2, 167.2, 14, Sem_Marca, creatina
+34, 34, 11, Black_Skull, creatina
+338, 338, 0, Max_Titanium, creatina
 19, 19, 9, Integralmedica, creatina
 109.99, 109.99, 55, Universal, creatina
-119.99, 119.99, 34, Sem Marca, creatina
-89.99, 89.99, 16, Max Titanium, creatina
-40.25, 40.25, 32, Optimum Nutrition, creatina
+119.99, 119.99, 34, Sem_Marca, creatina
+89.99, 89.99, 16, Max_Titanium, creatina
+40.25, 40.25, 32, Optimum_Nutrition, creatina
 45.9, 45.9, 24, Probiotica, creatina
-45, 45, 31, Sem Marca, creatina
+45, 45, 31, Sem_Marca, creatina
 52.9, 52.9, 13, Universal, creatina
-48.78, 48.78, 33, Max Titanium, creatina
+48.78, 48.78, 33, Max_Titanium, creatina
 35, 35, 8, Integralmedica, creatina
-159, 159, 27, Sem Marca, creatina
+159, 159, 27, Sem_Marca, creatina
 85, 85, 10, Extreme, creatina
-37.9, 37.9, 3, Max Titanium, creatina
+37.9, 37.9, 3, Max_Titanium, creatina
 53, 53, 0, Universal, creatina
 53.9, 53.9, 8, Integralmedica, creatina
-43.2, 43.2, 53, New Millen, creatina
-282, 282, 1, Max Titanium, creatina
+43.2, 43.2, 53, New_Millen, creatina
+282, 282, 1, Max_Titanium, creatina
 165.95, 165.95, 0, Universal, creatina
 38.05, 38.05, 11, Probiotica, creatina
-50, 50, 9, Black Skull, creatina
+50, 50, 9, Black_Skull, creatina
 41.9, 41.9, 6, Probiotica, creatina
-587, 587, 1, Max Titanium, creatina
+587, 587, 1, Max_Titanium, creatina
 32.9, 32.9, 34, Integralmedica, creatina
 102, 102, 5, Universal, creatina
-61.9, 61.9, 47, Optimum Nutrition, creatina
-54, 54, 8, Max Titanium, creatina
-32, 32, 13, Atlhetica Nutrition, creatina
+61.9, 61.9, 47, Optimum_Nutrition, creatina
+54, 54, 8, Max_Titanium, creatina
+32, 32, 13, Atlhetica_Nutrition, creatina
 129.9, 129.9, 12, Universal, creatina
 27, 27, 7, Integralmedica, creatina
-39.9, 39.9, 11, Max Titanium, creatina
+39.9, 39.9, 11, Max_Titanium, creatina
 79.9, 79.9, 6, Musclepharm, creatina
-209, 209, 5, Optimum Nutrition, creatina
+209, 209, 5, Optimum_Nutrition, creatina
 65, 65, 1, Universal, creatina
-35, 35, 12, Arnold Nutrition, creatina
-532, 532, 0, Max Titanium, creatina
+35, 35, 12, Arnold_Nutrition, creatina
+532, 532, 0, Max_Titanium, creatina
 25, 25, 28, Integralmedica, creatina
-45, 45, 25, Black Skull, creatina
+45, 45, 25, Black_Skull, creatina
 89.9, 89.9, 6, Universal, creatina
-110, 110, 5, Max Titanium, creatina
-17.9, 17.9, 8, Atlhetica Nutrition, creatina
-129.9, 89.9, 41, Probiotica, caixa barra de proteina
-129, 99.56, 7, Probiotica, caixa barra de proteina
-68.4, 68.4, 819, Probiotica, caixa barra de proteina
-68.4, 68.4, 635, Probiotica, caixa barra de proteina
-68.4, 68.4, 322, Probiotica, caixa barra de proteina
-69.9, 69.9, 142, Probiotica, caixa barra de proteina
-59.8, 59.8, 50, Integralmedica, caixa barra de proteina
-69.9, 69.9, 82, Probiotica, caixa barra de proteina
-69.9, 69.9, 52, Sem Marca, caixa barra de proteina
-47.99, 47.99, 77, Integralmedica, caixa barra de proteina
-39.99, 39.99, 39, Integralmedica, caixa barra de proteina
-119.99, 119.99, 56, Questbar, caixa barra de proteina
-173.26, 173.26, 287, Questbar, caixa barra de proteina
-47.25, 47.25, 19, Integralmedica, caixa barra de proteina
-79.99, 79.99, 31, Probiotica, caixa barra de proteina
-145, 145, 14, Questbar, caixa barra de proteina
-257.9, 257.9, 13, Probiotica, caixa barra de proteina
-228.8, 228.8, 6, Integralmedica, caixa barra de proteina
-61, 61, 11, Integralmedica, caixa barra de proteina
-50.9, 50.9, 7, Integralmedica, caixa barra de proteina
-200, 200, 5, Integralmedica, caixa barra de proteina
-75, 75, 8,  Probiotica , caixa barra de proteina
-159.9, 159.9, 4, Sem Marca, caixa barra de proteina
-136.9, 136.9, 86, Quest, caixa barra de proteina
-169, 169, 4, Sem Marca, caixa barra de proteina
-81, 81, 26, Sem Marca, caixa barra de proteina
-56.9, 56.9, 6, Herbalife, caixa barra de proteina
-47.25, 47.25, 3, Integralmedica, caixa barra de proteina
-61, 61, 2, Integralmedica, caixa barra de proteina
-308.9, 308.9, 1, BSN, caixa barra de proteina
-81, 81, 25, Sem Marca, caixa barra de proteina
-81, 81, 14, Sem Marca, caixa barra de proteina
-79.99, 79.99, 1, Trio, caixa barra de proteina
-339.85, 339.85, 1, trio, caixa barra de proteina
-60, 60, 1, Integralmedica, caixa barra de proteina
-61, 61, 1, Integralmedica, caixa barra de proteina
-73.9, 73.9, 2, Probiotica, caixa barra de proteina
-336, 336, 0, BodyAction, caixa barra de proteina
-163, 163, 1, Probiotica, caixa barra de proteina
-120, 120, 2, Integralmedica, caixa barra de proteina
-273, 273, 0, BodyAction, caixa barra de proteina
-57.9, 57.9, 0, Herbalife, caixa barra de proteina
-120, 120, 2, NeoNutri, caixa barra de proteina
-149.9, 149.9, 0, Hart's Natural, caixa barra de proteina
-9.99, 9.99, 0, Trio, caixa barra de proteina
-99.75, 99.75, 1, Probiotica, caixa barra de proteina
-99.75, 99.75, 1, Probiotica, caixa barra de proteina
-201, 201, 0, BodyAction, caixa barra de proteina
-251.8, 251.8, 0, Quest Nutrition, caixa barra de proteina
-65.2, 65.2, 3, Integralmedica, caixa barra de proteina
-96.9, 96.9, 1, Sem Marca, caixa barra de proteina
-159.9, 159.9, 1, Sem Marca, caixa barra de proteina
-168, 168, 0, BodyAction, caixa barra de proteina
-55.9, 55.9, 0, Nutrilatina, caixa barra de proteina
-164, 164, 0, Questbar, caixa barra de proteina
-85.95, 85.95, 0, Probiotica, caixa barra de proteina
-299.9, 299.9, 0, Herbalife, caixa barra de proteina
-65.2, 65.2, 1, Integralmedica, caixa barra de proteina
-85.95, 85.95, 0, Probiotica, caixa barra de proteina
-5.99, 5.99, 0, Integralmedica, caixa barra de proteina
-120, 120, 1, Integralmedica, caixa barra de proteina
-129, 129, 0, BodyAction, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-99.75, 99.75, 0, Probiotica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-78.1, 78.1, 0, Probiotica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-120, 120, 0, NeoNutri, caixa barra de proteina
-99.75, 99.75, 0, Probiotica, caixa barra de proteina
-169, 169, 0, Sem Marca, caixa barra de proteina
-120, 120, 0, NeoNutri, caixa barra de proteina
-108, 108, 0, BodyAction, caixa barra de proteina
-179.9, 179.9, 0, Sem Marca, caixa barra de proteina
-97, 97, 0, BodyAction, caixa barra de proteina
-8, 8, 0, Trio, caixa barra de proteina
-99.75, 99.75, 0, Probiotica, caixa barra de proteina
-179.9, 179.9, 0, Sem Marca, caixa barra de proteina
-65.2, 65.2, 2, Integralmedica, caixa barra de proteina
-630.97, 630.97, 0, Herbalife, caixa barra de proteina
-149.99, 149.99, 34, Probiotica, caixa barra de proteina
-309, 309, 1, Sem Marca, caixa barra de proteina
-189.9, 189.9, 0, Integralmedica, caixa barra de proteina
-78.1, 78.1, 0, Probiotica, caixa barra de proteina
-106.3, 106.3, 0, Probiotica, caixa barra de proteina
-8, 8, 0, Trio, caixa barra de proteina
-189.9, 189.9, 0, Integralmedica, caixa barra de proteina
-639.99, 639.99, 1, Sem Marca, caixa barra de proteina
-55.68, 55.68, 0, Integralmedica, caixa barra de proteina
-68.8, 68.8, 0, BodyAction, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-78.1, 78.1, 0, Probiotica, caixa barra de proteina
-55.68, 55.68, 0, Integralmedica, caixa barra de proteina
-78.1, 78.1, 0, Probiotica, caixa barra de proteina
-57.2, 57.2, 0, BodyAction, caixa barra de proteina
-78.1, 78.1, 0, Probiotica, caixa barra de proteina
-32, 32, 0, Integralmedica, caixa barra de proteina
-68.8, 68.8, 0, BodyAction, caixa barra de proteina
-145, 145, 0, Integralmedica, caixa barra de proteina
-69.9, 69.9, 0, Integralmedica, caixa barra de proteina
-139.9, 139.9, 0, Integralmedica, caixa barra de proteina
-49.9, 49.9, 0, BodyAction, caixa barra de proteina
-55.68, 55.68, 0, Integralmedica, caixa barra de proteina
-68.8, 68.8, 0, BodyAction, caixa barra de proteina
-189.9, 189.9, 0, Integralmedica, caixa barra de proteina
-164, 164, 0, Quest, caixa barra de proteina
-189.9, 189.9, 0, Integralmedica, caixa barra de proteina
-169.9, 169.9, 0, Integralmedica, caixa barra de proteina
-169.9, 169.9, 0, Integralmedica, caixa barra de proteina
-149, 149, 0, Fit Elite, caixa barra de proteina
-149, 149, 0, Fit Elite, caixa barra de proteina
-149, 149, 0, Fit Elite, caixa barra de proteina
-79.9, 79.9, 0, Herbalife, caixa barra de proteina
-72.9, 72.9, 0, Sem Marca, caixa barra de proteina
-97.9, 97.9, 0, Sem Marca, caixa barra de proteina
-8, 8, 0, Trio, caixa barra de proteina
-210, 210, 2, Integralmedica, caixa barra de proteina
-175, 175, 0, Questbar, caixa barra de proteina
-69.9, 69.9, 4, Integralmedica, caixa barra de proteina
-84.99, 84.99, 0, Herbalife, caixa barra de proteina
-179, 179, 0, Integralmedica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-49.9, 49.9, 0, BodyAction, caixa barra de proteina
-49.9, 49.9, 0, BodyAction, caixa barra de proteina
-65.9, 65.9, 0, Max Titanium, caixa barra de proteina
-129.99, 129.99, 0, Herbalife, caixa barra de proteina
-179.9, 179.9, 0, Integralmedica, caixa barra de proteina
-65.2, 65.2, 0, Integralmedica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-179.9, 179.9, 0, Integralmedica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-179.9, 179.9, 0, Integralmedica, caixa barra de proteina
-31.88, 31.88, 0, Integralmedica, caixa barra de proteina
-65.2, 65.2, 0, Integralmedica, caixa barra de proteina
-52, 52, 0, Mormaii, caixa barra de proteina
-179.9, 179.9, 0, Integralmedica, caixa barra de proteina
-169, 169, 0, Integralmedica, caixa barra de proteina
-61, 61, 0, Herbalife, caixa barra de proteina
-47.9, 47.9, 0, Mormaii, caixa barra de proteina
-158.9, 158.9, 0, Sem Marca, caixa barra de proteina
-65, 65, 0, herbalife, caixa barra de proteina
-159, 159, 0, Sem Marca, caixa barra de proteina
-224.95, 224.95, 0, Herbalife, caixa barra de proteina
-60, 60, 0, Integralmedica, caixa barra de proteina
-265, 265, 1, Sem Marca, caixa barra de proteina
-153, 153, 0, BodyAction, caixa barra de proteina
-306, 306, 0, BodyAction, caixa barra de proteina
-183, 183, 0, BodyAction, caixa barra de proteina
-249, 249, 0, BodyAction, caixa barra de proteina
-118, 118, 0, BodyAction, caixa barra de proteina
-129.5, 129.5, 2, Quest, caixa barra de proteina
-292.9, 292.9, 0, Herbalife, caixa barra de proteina
-54.9, 54.9, 0, Herbalife, caixa barra de proteina
-76.9, 76.9, 0, Herbalife, caixa barra de proteina
-159, 159, 1, Sem Marca, caixa barra de proteina
-159, 159, 0, Sem Marca, caixa barra de proteina
-45, 45, 0, Herbalife, caixa barra de proteina
-150, 150, 0, Sem Marca, caixa barra de proteina
-129.5, 129.5, 1, Quest, caixa barra de proteina
+110, 110, 5, Max_Titanium, creatina
+17.9, 17.9, 8, Atlhetica_Nutrition, creatina
+129.9, 89.9, 41, Probiotica, caixa_barra_de_proteina
+129, 99.56, 7, Probiotica, caixa_barra_de_proteina
+68.4, 68.4, 819, Probiotica, caixa_barra_de_proteina
+68.4, 68.4, 635, Probiotica, caixa_barra_de_proteina
+68.4, 68.4, 322, Probiotica, caixa_barra_de_proteina
+69.9, 69.9, 142, Probiotica, caixa_barra_de_proteina
+59.8, 59.8, 50, Integralmedica, caixa_barra_de_proteina
+69.9, 69.9, 82, Probiotica, caixa_barra_de_proteina
+69.9, 69.9, 52, Sem_Marca, caixa_barra_de_proteina
+47.99, 47.99, 77, Integralmedica, caixa_barra_de_proteina
+39.99, 39.99, 39, Integralmedica, caixa_barra_de_proteina
+119.99, 119.99, 56, Questbar, caixa_barra_de_proteina
+173.26, 173.26, 287, Questbar, caixa_barra_de_proteina
+47.25, 47.25, 19, Integralmedica, caixa_barra_de_proteina
+79.99, 79.99, 31, Probiotica, caixa_barra_de_proteina
+145, 145, 14, Questbar, caixa_barra_de_proteina
+257.9, 257.9, 13, Probiotica, caixa_barra_de_proteina
+228.8, 228.8, 6, Integralmedica, caixa_barra_de_proteina
+61, 61, 11, Integralmedica, caixa_barra_de_proteina
+50.9, 50.9, 7, Integralmedica, caixa_barra_de_proteina
+200, 200, 5, Integralmedica, caixa_barra_de_proteina
+75, 75, 8, _Probiotica_, caixa_barra_de_proteina
+159.9, 159.9, 4, Sem_Marca, caixa_barra_de_proteina
+136.9, 136.9, 86, Quest, caixa_barra_de_proteina
+169, 169, 4, Sem_Marca, caixa_barra_de_proteina
+81, 81, 26, Sem_Marca, caixa_barra_de_proteina
+56.9, 56.9, 6, Herbalife, caixa_barra_de_proteina
+47.25, 47.25, 3, Integralmedica, caixa_barra_de_proteina
+61, 61, 2, Integralmedica, caixa_barra_de_proteina
+308.9, 308.9, 1, BSN, caixa_barra_de_proteina
+81, 81, 25, Sem_Marca, caixa_barra_de_proteina
+81, 81, 14, Sem_Marca, caixa_barra_de_proteina
+79.99, 79.99, 1, Trio, caixa_barra_de_proteina
+339.85, 339.85, 1, trio, caixa_barra_de_proteina
+60, 60, 1, Integralmedica, caixa_barra_de_proteina
+61, 61, 1, Integralmedica, caixa_barra_de_proteina
+73.9, 73.9, 2, Probiotica, caixa_barra_de_proteina
+336, 336, 0, BodyAction, caixa_barra_de_proteina
+163, 163, 1, Probiotica, caixa_barra_de_proteina
+120, 120, 2, Integralmedica, caixa_barra_de_proteina
+273, 273, 0, BodyAction, caixa_barra_de_proteina
+57.9, 57.9, 0, Herbalife, caixa_barra_de_proteina
+120, 120, 2, NeoNutri, caixa_barra_de_proteina
+149.9, 149.9, 0, Harts_Natural, caixa_barra_de_proteina
+9.99, 9.99, 0, Trio, caixa_barra_de_proteina
+99.75, 99.75, 1, Probiotica, caixa_barra_de_proteina
+99.75, 99.75, 1, Probiotica, caixa_barra_de_proteina
+201, 201, 0, BodyAction, caixa_barra_de_proteina
+251.8, 251.8, 0, Quest_Nutrition, caixa_barra_de_proteina
+65.2, 65.2, 3, Integralmedica, caixa_barra_de_proteina
+96.9, 96.9, 1, Sem_Marca, caixa_barra_de_proteina
+159.9, 159.9, 1, Sem_Marca, caixa_barra_de_proteina
+168, 168, 0, BodyAction, caixa_barra_de_proteina
+55.9, 55.9, 0, Nutrilatina, caixa_barra_de_proteina
+164, 164, 0, Questbar, caixa_barra_de_proteina
+85.95, 85.95, 0, Probiotica, caixa_barra_de_proteina
+299.9, 299.9, 0, Herbalife, caixa_barra_de_proteina
+65.2, 65.2, 1, Integralmedica, caixa_barra_de_proteina
+85.95, 85.95, 0, Probiotica, caixa_barra_de_proteina
+5.99, 5.99, 0, Integralmedica, caixa_barra_de_proteina
+120, 120, 1, Integralmedica, caixa_barra_de_proteina
+129, 129, 0, BodyAction, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+99.75, 99.75, 0, Probiotica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+78.1, 78.1, 0, Probiotica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+120, 120, 0, NeoNutri, caixa_barra_de_proteina
+99.75, 99.75, 0, Probiotica, caixa_barra_de_proteina
+169, 169, 0, Sem_Marca, caixa_barra_de_proteina
+120, 120, 0, NeoNutri, caixa_barra_de_proteina
+108, 108, 0, BodyAction, caixa_barra_de_proteina
+179.9, 179.9, 0, Sem_Marca, caixa_barra_de_proteina
+97, 97, 0, BodyAction, caixa_barra_de_proteina
+8, 8, 0, Trio, caixa_barra_de_proteina
+99.75, 99.75, 0, Probiotica, caixa_barra_de_proteina
+179.9, 179.9, 0, Sem_Marca, caixa_barra_de_proteina
+65.2, 65.2, 2, Integralmedica, caixa_barra_de_proteina
+630.97, 630.97, 0, Herbalife, caixa_barra_de_proteina
+149.99, 149.99, 34, Probiotica, caixa_barra_de_proteina
+309, 309, 1, Sem_Marca, caixa_barra_de_proteina
+189.9, 189.9, 0, Integralmedica, caixa_barra_de_proteina
+78.1, 78.1, 0, Probiotica, caixa_barra_de_proteina
+106.3, 106.3, 0, Probiotica, caixa_barra_de_proteina
+8, 8, 0, Trio, caixa_barra_de_proteina
+189.9, 189.9, 0, Integralmedica, caixa_barra_de_proteina
+639.99, 639.99, 1, Sem_Marca, caixa_barra_de_proteina
+55.68, 55.68, 0, Integralmedica, caixa_barra_de_proteina
+68.8, 68.8, 0, BodyAction, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+78.1, 78.1, 0, Probiotica, caixa_barra_de_proteina
+55.68, 55.68, 0, Integralmedica, caixa_barra_de_proteina
+78.1, 78.1, 0, Probiotica, caixa_barra_de_proteina
+57.2, 57.2, 0, BodyAction, caixa_barra_de_proteina
+78.1, 78.1, 0, Probiotica, caixa_barra_de_proteina
+32, 32, 0, Integralmedica, caixa_barra_de_proteina
+68.8, 68.8, 0, BodyAction, caixa_barra_de_proteina
+145, 145, 0, Integralmedica, caixa_barra_de_proteina
+69.9, 69.9, 0, Integralmedica, caixa_barra_de_proteina
+139.9, 139.9, 0, Integralmedica, caixa_barra_de_proteina
+49.9, 49.9, 0, BodyAction, caixa_barra_de_proteina
+55.68, 55.68, 0, Integralmedica, caixa_barra_de_proteina
+68.8, 68.8, 0, BodyAction, caixa_barra_de_proteina
+189.9, 189.9, 0, Integralmedica, caixa_barra_de_proteina
+164, 164, 0, Quest, caixa_barra_de_proteina
+189.9, 189.9, 0, Integralmedica, caixa_barra_de_proteina
+169.9, 169.9, 0, Integralmedica, caixa_barra_de_proteina
+169.9, 169.9, 0, Integralmedica, caixa_barra_de_proteina
+149, 149, 0, Fit_Elite, caixa_barra_de_proteina
+149, 149, 0, Fit_Elite, caixa_barra_de_proteina
+149, 149, 0, Fit_Elite, caixa_barra_de_proteina
+79.9, 79.9, 0, Herbalife, caixa_barra_de_proteina
+72.9, 72.9, 0, Sem_Marca, caixa_barra_de_proteina
+97.9, 97.9, 0, Sem_Marca, caixa_barra_de_proteina
+8, 8, 0, Trio, caixa_barra_de_proteina
+210, 210, 2, Integralmedica, caixa_barra_de_proteina
+175, 175, 0, Questbar, caixa_barra_de_proteina
+69.9, 69.9, 4, Integralmedica, caixa_barra_de_proteina
+84.99, 84.99, 0, Herbalife, caixa_barra_de_proteina
+179, 179, 0, Integralmedica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+49.9, 49.9, 0, BodyAction, caixa_barra_de_proteina
+49.9, 49.9, 0, BodyAction, caixa_barra_de_proteina
+65.9, 65.9, 0, Max_Titanium, caixa_barra_de_proteina
+129.99, 129.99, 0, Herbalife, caixa_barra_de_proteina
+179.9, 179.9, 0, Integralmedica, caixa_barra_de_proteina
+65.2, 65.2, 0, Integralmedica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+179.9, 179.9, 0, Integralmedica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+179.9, 179.9, 0, Integralmedica, caixa_barra_de_proteina
+31.88, 31.88, 0, Integralmedica, caixa_barra_de_proteina
+65.2, 65.2, 0, Integralmedica, caixa_barra_de_proteina
+52, 52, 0, Mormaii, caixa_barra_de_proteina
+179.9, 179.9, 0, Integralmedica, caixa_barra_de_proteina
+169, 169, 0, Integralmedica, caixa_barra_de_proteina
+61, 61, 0, Herbalife, caixa_barra_de_proteina
+47.9, 47.9, 0, Mormaii, caixa_barra_de_proteina
+158.9, 158.9, 0, Sem_Marca, caixa_barra_de_proteina
+65, 65, 0, herbalife, caixa_barra_de_proteina
+159, 159, 0, Sem_Marca, caixa_barra_de_proteina
+224.95, 224.95, 0, Herbalife, caixa_barra_de_proteina
+60, 60, 0, Integralmedica, caixa_barra_de_proteina
+265, 265, 1, Sem_Marca, caixa_barra_de_proteina
+153, 153, 0, BodyAction, caixa_barra_de_proteina
+306, 306, 0, BodyAction, caixa_barra_de_proteina
+183, 183, 0, BodyAction, caixa_barra_de_proteina
+249, 249, 0, BodyAction, caixa_barra_de_proteina
+118, 118, 0, BodyAction, caixa_barra_de_proteina
+129.5, 129.5, 2, Quest, caixa_barra_de_proteina
+292.9, 292.9, 0, Herbalife, caixa_barra_de_proteina
+54.9, 54.9, 0, Herbalife, caixa_barra_de_proteina
+76.9, 76.9, 0, Herbalife, caixa_barra_de_proteina
+159, 159, 1, Sem_Marca, caixa_barra_de_proteina
+159, 159, 0, Sem_Marca, caixa_barra_de_proteina
+45, 45, 0, Herbalife, caixa_barra_de_proteina
+150, 150, 0, Sem_Marca, caixa_barra_de_proteina
+129.5, 129.5, 1, Quest, caixa_barra_de_proteina
