@@ -1,4 +1,4 @@
-%   Fri Jun 30 2017 23:09:21 GMT-0300 (-03)
+%   Fri Jun 30 2017 23:18:45 GMT-0300 (-03)
 %   Banco de dados para suplementos retirados do Mercado Livre
 %
 %   Creators:
@@ -12,7 +12,7 @@
 @attribute Preco_de_venda       NUMERIC
 @attribute Quantidade_vendida   NUMERIC
 @attribute Marca                NUMERIC
-@attribute Produtos             {whey, bcaa, termogenico, glutamina}
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina}
 
 @data
 152.99, 129.99, 6107, Integralmedica, whey
@@ -46,7 +46,7 @@
 169.66, 169.66, 644, Integralmedica, whey
 99.89, 99.89, 228, Pandora, whey
 125, 125, 759, New Millen, whey
-249.1, 179.1, 483, Atlhetica Nutrition, whey
+249.1, 179.1, 484, Atlhetica Nutrition, whey
 199.9, 199.9, 246, Optimum Nutrition, whey
 170, 170, 642, Max Titanium, whey
 89.9, 89.9, 485, Optimum Nutrition, whey
@@ -815,3 +815,203 @@
 166, 166, 1, Sem Marca, glutamina
 239.82, 239.82, 0, NewNutrition, glutamina
 169.74, 169.74, 1, Integralmedica, glutamina
+52.56, 19.9, 622, Creatina Monohidratada - 150 G - Nitech Nutrition, creatina
+64.87, 49.9, 361, Max Titanium, creatina
+42, 42, 650, Integralmedica, creatina
+19.41, 19.41, 477, Max Titanium, creatina
+42.5, 42.5, 935, Soldiers Nutrition, creatina
+55, 55, 992, Max Titanium, creatina
+53.25, 42.6, 511, Max Titanium, creatina
+47.99, 47.99, 748, Universal, creatina
+74.99, 74.99, 212, NutraNatus, creatina
+179.1, 179.1, 220, Integralmedica, creatina
+17.4, 17.4, 478, Max Titanium, creatina
+69.9, 69.9, 401, Optimum Nutrition, creatina
+42.42, 42.42, 197, Integralmedica, creatina
+99.8, 99.8, 48, Integralmedica, creatina
+14.89, 14.89, 138, Atlhetica Nutrition, creatina
+32.9, 32.9, 17, Integralmedica, creatina
+39.4, 39.4, 212, Integralmedica, creatina
+45.8, 45.8, 145, Black Skull, creatina
+55, 55, 37, Extreme Manipulacao, creatina
+82, 82, 532, Universal, creatina
+82.5, 82.5, 112, Max Titanium, creatina
+79.9, 79.9, 166, Sem Marca, creatina
+55, 55, 290, Max Titanium, creatina
+54.99, 54.99, 121, Sem Marca, creatina
+74, 74, 28, Max Titanium, creatina
+32, 32, 295, Max Titanium, creatina
+198.83, 198.83, 49, Universal, creatina
+105, 105, 860, Universal, creatina
+38.9, 38.9, 123, Universal, creatina
+39.8, 39.8, 323, Universal, creatina
+88.76, 88.76, 7, Black Skull, creatina
+51.58, 51.58, 189, Black Skull, creatina
+17, 17, 21, Integralmedica, creatina
+48.9, 48.9, 194, Max Titanium, creatina
+104.99, 104.99, 1036, Universal, creatina
+16.9, 16.9, 108, Sem Marca, creatina
+79.9, 79.9, 209, Optimum Nutrition, creatina
+48.9, 48.9, 273, Sem Marca, creatina
+17.9, 17.9, 94, Mais Nutrition, creatina
+143.8, 143.8, 49, Integralmedica, creatina
+47.9, 47.9, 33, Universal, creatina
+38.8, 38.8, 26, Probiotica, creatina
+49.4, 49.4, 0, GoldsNutrition, creatina
+44.3, 44.3, 28, Universal, creatina
+39.89, 39.89, 19, Atlhetica Nutrition, creatina
+114.99, 114.99, 64, Sem Marca, creatina
+120, 120, 122, Universal, creatina
+97, 97, 43, Universal, creatina
+48.99, 48.99, 414, Sem Marca, creatina
+67.9, 67.9, 24, Universal, creatina
+44.99, 44.99, 55, Sem Marca, creatina
+30, 30, 30, Max Titanium, creatina
+65, 65, 1, Sem Marca, creatina
+38.34, 38.34, 40, Max Titanium, creatina
+148.99, 148.99, 116, Sem Marca, creatina
+41, 41, 37, Integralmedica, creatina
+76.99, 76.99, 99, Sem Marca, creatina
+69.9, 69.9, 31, Max Titanium, creatina
+37, 37, 113, Probiotica, creatina
+35.4, 35.4, 9, Max Titanium, creatina
+90, 90, 20, Max Titanium, creatina
+50, 50, 33, Integralmedica, creatina
+48.78, 48.78, 64, Max Titanium, creatina
+49.9, 49.9, 133, Probiotica, creatina
+120, 120, 30, Max Titanium, creatina
+88, 88, 44, Universal, creatina
+38.43, 38.43, 44, Integralmedica, creatina
+39.99, 39.99, 59, Probiotica, creatina
+73.74, 73.74, 2, Black Skull, creatina
+135, 135, 55, Sem Marca, creatina
+69.9, 69.9, 478, Universal, creatina
+35, 35, 14, Max Titanium, creatina
+42, 42, 57, Optimum Nutrition, creatina
+100, 100, 11, Universal, creatina
+54.99, 54.99, 35, Max Titanium, creatina
+49.9, 49.9, 33, Sem Marca, creatina
+42, 42, 19, Universal, creatina
+61.95, 61.95, 25, Probiotica, creatina
+41.43, 41.43, 8, Max Titanium, creatina
+69.9, 69.9, 17, Black Skull, creatina
+85, 85, 0, Sem Marca, creatina
+38.5, 38.5, 17, Integralmedica, creatina
+97.65, 97.65, 42, NewNutrition, creatina
+30.9, 30.9, 188, Universal, creatina
+99.98, 99.98, 565, NutraNatus, creatina
+48.78, 48.78, 368, Max Titanium, creatina
+61.85, 61.85, 64, Integralmedica, creatina
+29.8, 29.8, 120, Sem Marca, creatina
+14, 14, 44, Atlhetica Nutrition, creatina
+65, 65, 0, Sem Marca, creatina
+87.04, 87.04, 55, Max Titanium, creatina
+89.99, 89.99, 56, Universal, creatina
+58.94, 58.94, 32, 4 Fuel, creatina
+33, 33, 12, Integralmedica, creatina
+35.19, 35.19, 0, Max Titanium, creatina
+39.99, 39.99, 26, Sem Marca, creatina
+48.77, 48.77, 14, Max Titanium, creatina
+42, 42, 121, Universal, creatina
+307.6, 307.6, 10, Ultimate Nutrition, creatina
+17.25, 17.25, 9, Max Titanium, creatina
+57.99, 57.99, 65, Sem Marca, creatina
+107.9, 107.9, 22, Universal, creatina
+16.9, 16.9, 14, Integralmedica, creatina
+73.99, 73.99, 38, Optimum Nutrition, creatina
+557, 557, 2, Max Titanium, creatina
+38.9, 38.9, 45, Probiotica, creatina
+22.9, 22.9, 59, Sem Marca, creatina
+284.12, 284.12, 2, Universal, creatina
+24.99, 24.99, 21, Max Titanium, creatina
+68.99, 68.99, 50, Integralmedica, creatina
+199.98, 199.98, 58, NutraNatus, creatina
+217.9, 217.9, 12, Sem Marca, creatina
+54.99, 54.99, 520, Universal, creatina
+80, 80, 6, Max Titanium, creatina
+17.9, 17.9, 29, Sem Marca, creatina
+66.9, 66.9, 14, Dymatize, creatina
+44, 44, 36, Integralmedica, creatina
+29.9, 29.9, 42, Max Titanium, creatina
+69.9, 69.9, 10, Universal, creatina
+59, 59, 24, Sem Marca, creatina
+25.9, 25.9, 39, Sem Marca, creatina
+57, 57, 6, Max Titanium, creatina
+63, 63, 12, Universal, creatina
+39, 39, 31, Integralmedica, creatina
+74.5, 74.5, 161, Puritan's Pride, creatina
+48.79, 48.79, 6, Max Titanium, creatina
+54.86, 54.86, 19, Optimum Nutrition, creatina
+120, 120, 21, Sem Marca, creatina
+64.9, 64.9, 226, Universal, creatina
+49.9, 49.9, 27, Ultimate Nutrition, creatina
+48.78, 48.78, 20, Max Titanium, creatina
+53.9, 53.9, 8, Integralmedica, creatina
+35, 35, 6, Sem Marca, creatina
+128.8, 128.8, 5, Universal, creatina
+50, 50, 16, Max Titanium, creatina
+123.9, 123.9, 13, Atlhetica Nutrition, creatina
+169, 169, 8, Black Skull, creatina
+53, 53, 6, Integralmedica, creatina
+323.9, 323.9, 2, Max Titanium, creatina
+89.9, 89.9, 5, Universal, creatina
+58.94, 58.94, 10, Arnold Nutrition, creatina
+55, 55, 15, Sem Marca, creatina
+34.9, 34.9, 20, Max Titanium, creatina
+104.9, 104.9, 3, Universal, creatina
+42.42, 42.42, 17, Integralmedica, creatina
+44.5, 44.5, 14, Optimum Nutrition, creatina
+61.9, 61.9, 47, Optimum Nutrition, creatina
+71.54, 54.2, 4, Max Titanium, creatina
+49, 49, 5, Universal, creatina
+58.99, 58.99, 33, Sem Marca, creatina
+45.9, 45.9, 24, Probiotica, creatina
+31.41, 31.41, 10, Max Titanium, creatina
+77.9, 77.9, 172, Integralmedica, creatina
+29.9, 29.9, 59, Probiotica, creatina
+234, 234, 3, Universal, creatina
+338, 338, 0, Max Titanium, creatina
+38.8, 38.8, 21, Sem Marca, creatina
+65.9, 65.9, 57, Probiotica, creatina
+120.17, 120.17, 23, Muscletech, creatina
+89.99, 89.99, 16, Max Titanium, creatina
+99.94, 99.94, 7, Universal, creatina
+33, 33, 3, Integralmedica, creatina
+16.59, 16.59, 10, 4 Fuel, creatina
+167.2, 167.2, 14, Sem Marca, creatina
+110, 110, 5, Max Titanium, creatina
+72.9, 72.9, 10, Universal, creatina
+19, 19, 9, Integralmedica, creatina
+34, 34, 11, Black Skull, creatina
+48.78, 48.78, 33, Max Titanium, creatina
+109.99, 109.99, 55, Universal, creatina
+119.99, 119.99, 34, Sem Marca, creatina
+40.25, 40.25, 32, Optimum Nutrition, creatina
+37.9, 37.9, 3, Max Titanium, creatina
+35, 35, 8, Integralmedica, creatina
+52.9, 52.9, 13, Universal, creatina
+59.99, 59.99, 13, Atlhetica Nutrition, creatina
+122.9, 122.9, 2, Max Titanium, creatina
+45, 45, 31, Sem Marca, creatina
+85, 85, 10, Extreme, creatina
+43.2, 43.2, 53, New Millen, creatina
+282, 282, 1, Max Titanium, creatina
+165.95, 165.95, 0, Universal, creatina
+32.9, 32.9, 34, Integralmedica, creatina
+159, 159, 27, Sem Marca, creatina
+38.05, 38.05, 11, Probiotica, creatina
+587, 587, 1, Max Titanium, creatina
+234, 234, 1, Universal, creatina
+27, 27, 7, Integralmedica, creatina
+50, 50, 9, Black Skull, creatina
+54, 54, 8, Max Titanium, creatina
+102, 102, 5, Universal, creatina
+99.9, 99.9, 6, Black Skull, creatina
+41.9, 41.9, 6, Probiotica, creatina
+39.9, 39.9, 11, Max Titanium, creatina
+25, 25, 28, Integralmedica, creatina
+129.9, 129.9, 12, Universal, creatina
+89.9, 89.9, 5, Black Skull, creatina
+532, 532, 0, Max Titanium, creatina
+32, 32, 13, Atlhetica Nutrition, creatina
+79.9, 79.9, 6, Musclepharm, creatina
