@@ -1566,7 +1566,7 @@
 167.95, 167.95, 1, Sem_Marca, whey
 120.9, 120.9, 0, Vitafor, whey
 145, 145, 1, Sem_Marca, whey
-449.9, 449.9, 1, Lauton_Nutrition_100%_Pure, whey
+449.9, 449.9, 1, Lauton_Nutrition_100_Pure, whey
 159.9, 159.9, 14, Sem_Marca, whey
 95.19, 95.19, 4, Sem_Marca, whey
 115.52, 115.52, 2, BodyAction, whey
@@ -1936,7 +1936,7 @@
 185.6, 185.6, 1, Max_Titanium, whey
 169.9, 169.9, 0, Max_Titanium, whey
 205, 205, 1, Max_Titanium, whey
-34.9, 34.9, 0, Lauton_Nutrition_100%_Pure, whey
+34.9, 34.9, 0, Lauton_Nutrition_100_Pure, whey
 126.68, 126.68, 1, Max_Titanium, whey
 251.06, 251.06, 1, Sem_Marca, whey
 179, 179, 0, Max_Titanium, whey
@@ -7746,7 +7746,7 @@
 68.9, 68.9, 0, Integralmedica, creatina
 85, 85, 0, Sem_Marca, creatina
 143.2, 143.2, 0, New_Millen, creatina
-32.9, 32.9, 0, Creatina_Monohidratada_Energy_Explosive_100%_Pura_-_150_G_-, creatina
+32.9, 32.9, 0, Creatina_Monohidratada_Energy_Explosive_100_Pura_-_150_G_-, creatina
 167, 167, 0, New_Millen, creatina
 88, 88, 0, Black_Skull, creatina
 119.9, 119.9, 0, Sem_Marca, creatina
