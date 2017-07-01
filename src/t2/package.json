@@ -1,0 +1,35 @@
+{
+  "name": "t2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -D ./src/ -d build",
+    "es6": "babel-node src/main.js",
+    "start": "node ./build/main.js"
+  },
+  "author": "farm and pitu",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-plugin-transform-inline-environment-variables": "0.0.2",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-es2015-node5": "1.2.0",
+    "dotenv": "4.0.0",
+    "mercadolibre": "0.0.13"
+  },
+  "devDependencies": {
+    "json-loader": "0.5.4"
+  }
+}
