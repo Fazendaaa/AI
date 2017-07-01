@@ -63,7 +63,7 @@ fs.open('results.arff', 'w', (err, fd) => {
 @attribute Preco_original       NUMERIC\n\
 @attribute Preco_de_venda       NUMERIC\n\
 @attribute Quantidade_vendida   NUMERIC\n\
-@attribute Marca                NUMERIC\n\
+@attribute Marca                STRING\n\
 @attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa barra de proteina}\n\
 \n\
 @data\n\
