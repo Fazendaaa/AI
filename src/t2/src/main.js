@@ -14,12 +14,12 @@ const app = new Meli(process.env.CLIENT_ID, process.env.CLIENT_KEY);
  * @returns {Object[JSON]} Info about the searched element.
  */
 const search = query => new Promise((resolve, reject) => {
-    // To change search to other countries different then BRAZIL change MLB to Mercado Libre desired country.
-    app.get(`sites/MLB/search?q=${query}`, (err, res) => {
+    // To  change  search  to other countries different then BRAZIL change MLB to Mercado Libre desired country. Mercado
+    // Libre's API limits up to 50 000 results.
+    app.get(`sites/MLB/search?q=${query}&limit=50000`, (err, res) => {
         if(err)
             reject(err);
         else {
-            // Since for this application there's no need to search more then 50 items, no pagination it's needed.
             Promise.all(res.results.map((element) => {
                 // All price info will be in reais -- Brazil's currency.
                 return {
