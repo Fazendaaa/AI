@@ -64,14 +64,21 @@ fs.open('results.arff', 'w', (err, fd) => {
 @attribute Preco_de_venda       NUMERIC\n\
 @attribute Quantidade_vendida   NUMERIC\n\
 @attribute Marca                NUMERIC\n\
-@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina}\n\
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa barra de proteina}\n\
 \n\
 @data\n\
 `;
     if(err)
         console.log(err);
     else {
-        Promise.all([search('whey'), search('bcaa'), search('termogenico'), search('glutamina'), search('creatina')]).then(result => {
+        Promise.all([
+            search('whey'),
+            search('bcaa'),
+            search('termogenico'),
+            search('glutamina'),
+            search('creatina'),
+            search('caixa barra de proteina')
+        ]).then(result => {
             // Flattening array.
             return [].concat.apply([], result);
         }).then(result => {
