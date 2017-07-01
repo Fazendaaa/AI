@@ -33,9 +33,10 @@ const itemToJSON = (type, element) => {
  * @returns {String} Element info setted int string format.
  */
 const stringfyResponse = element => {
-    // Since brand name could have space and Weka doesn't recognize it as string, underscore must be used.
+    // Since brand name could have space and Weka doesn't recognize it as string, underscore must be used. And all names
+    // with '%' should be removed because it's how weka implements commentary.
     return `${element.original_price}, ${element.price}, ${element.sold_quantity}, \
-${element.brand.replace(/ /g, '_').replace(/'/g, '')}, ${element.type.replace(/ /g, '_')}`;
+${element.brand.replace(/ |%/g, '_').replace(/'|%/g, '')}, ${element.type}`;
 }
 
 /**
@@ -104,7 +105,7 @@ fs.open('results.arff', 'w', (err, fd) => {
 @attribute Preco_de_venda       NUMERIC\n\
 @attribute Quantidade_vendida   NUMERIC\n\
 @attribute Marca                STRING\n\
-@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa_barra_de_proteina}\n\
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina}\n\
 \n\
 @data\n\
 `;
@@ -116,8 +117,7 @@ fs.open('results.arff', 'w', (err, fd) => {
             search('bcaa'),
             search('termogenico'),
             search('glutamina'),
-            search('creatina'),
-            search('caixa barra de proteina')
+            search('creatina')
         ]).then(result => {
             return [].concat.apply([], result);
         }).then(result => {

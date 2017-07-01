@@ -43,9 +43,10 @@ const itemToJSON = (type, element) => {
  * @returns {String} Element info setted int string format.
  */
 const stringfyResponse = element => {
-    // Since brand name could have space and Weka doesn't recognize it as string, underscore must be used.
+    // Since brand name could have space and Weka doesn't recognize it as string, underscore must be used. And all names
+    // with '%' should be removed because it's how weka implements commentary.
     return `${element.original_price}, ${element.price}, ${element.sold_quantity}, \
-${element.brand.replace(/ /g, '_').replace(/'/g, '')}, ${element.type.replace(/ /g, '_')}`;
+${element.brand.replace(/ |%/g, '_').replace(/'|%/g, '')}, ${element.type.replace(/ /g, '_')}`;
 };
 
 /**

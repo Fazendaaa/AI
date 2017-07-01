@@ -12,7 +12,7 @@
 @attribute Preco_de_venda       NUMERIC
 @attribute Quantidade_vendida   NUMERIC
 @attribute Marca                STRING
-@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina, caixa_barra_de_proteina}
+@attribute Produtos             {whey, bcaa, termogenico, glutamina, creatina}
 
 @data
 59.9, 59.9, 750, Infinity_Labs, whey
